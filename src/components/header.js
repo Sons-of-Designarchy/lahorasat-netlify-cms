@@ -1,0 +1,113 @@
+// import { Link } from "gatsby"
+import React from "react";
+import logo from "../img/logo-header.svg";
+import logoDesktop from "../img/logo.svg";
+import { Link, navigate } from "gatsby";
+
+const headerStyles = {
+  background: "#fff",
+  borderBottom: "1px solid #ccc",
+  position: "fixed",
+  top: 0,
+  width: "100%",
+  zIndex: 1000000,
+};
+
+const Header = ({ homepage }) => {
+  const [scrollPosition, setScrollPosition] = React.useState(0);
+
+  const [showMenu, setShowMenu] = React.useState(false);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  React.useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return (
+    <header
+      className={scrollPosition > 0 ? "sticky" : null}
+      style={headerStyles}
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light"
+        style={{ padding: 0 }}
+      >
+        <div className="container">
+          <div className="d-lg-none">
+            <a className="navbar-brand d-flex" href="/">
+              <img alt="La Hora Sat" width="100" src={logo} />
+            </a>
+          </div>
+          <button
+            className="navbar-toggler"
+            type="button"
+            onClick={() => setShowMenu(!showMenu)}
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div
+            className={
+              showMenu ? "navbar-collapse" : "collapse navbar-collapse"
+            }
+          >
+            <ul className="d-flex navbar-nav mr-auto">
+              <li className="nav-item">
+                <a href="/" className="nav-link">
+                  Inicio
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href={homepage ? "#cursos" : "/cursos"}>
+                  Cursos y talleres
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  activeClassName="active"
+                  href={homepage ? "#asesorias" : "/asesorias"}
+                >
+                  Asesorias
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  activeClassName="active"
+                  href="/testimonios"
+                >
+                  Testimonios
+                </a>
+              </li>
+            </ul>
+            <div className="logo-container d-none d-lg-block">
+              <Link to="/">
+                <img alt="La Hora Sat" width="90" src={logoDesktop} />
+              </Link>
+            </div>
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <a
+                  href="https://wa.me/+525510722129"
+                  className="btn btn-menu"
+                  target="_blank"
+                >
+                  Contáctanos por Whatsapp
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
