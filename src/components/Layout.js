@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Footer from "./footer";
+import Footer from "./footer-nav";
 import Header from "./header";
 import "./layout.css";
 import Subscribe from "./subscribe";

@@ -30,7 +30,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/index.md"
+      - file: "src/pages/index.js"
         label: "Landing Page"
         name: "index"
         fields:
