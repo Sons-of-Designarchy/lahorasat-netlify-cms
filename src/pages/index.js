@@ -64,7 +64,7 @@ const IndexPage = () => {
             <div className="row">
               <div className="col-lg-3 col-6">
                 <a
-                  className="p-4"
+                  className="p-2 p-lg-4 d-block"
                   href="https://www.instagram.com/p/CRCJvuLDV0y/?utm_medium=copy_link"
                   target="_blank"
                 >
@@ -73,7 +73,7 @@ const IndexPage = () => {
               </div>
               <div className="col-lg-3 col-6">
                 <a
-                  className="p-4"
+                  className="p-2 p-lg-4 d-block"
                   href="https://www.instagram.com/p/CSW2qRDHSqQ/?utm_medium=copy_link"
                   target="_blank"
                 >
@@ -82,7 +82,7 @@ const IndexPage = () => {
               </div>
               <div className="col-lg-3 col-6">
                 <a
-                  className="p-4"
+                  className="p-2 p-lg-4 d-block"
                   href="https://www.instagram.com/p/COjeV97s6iM/"
                   target="_blank"
                 >
@@ -91,7 +91,7 @@ const IndexPage = () => {
               </div>
               <div className="col-lg-3 col-6">
                 <a
-                  className="p-4"
+                  className="p-2 p-lg-4 d-block"
                   href="https://open.spotify.com/episode/2lfcJeDXPgohY33yk451d2?si=jRFiesTDQMe_YkE_5tLdYg&dl_branch=1&nd=1"
                   target="_blank"
                 >
@@ -100,7 +100,7 @@ const IndexPage = () => {
               </div>
               <div className="col-lg-3 col-6">
                 <a
-                  className="p-4"
+                  className="p-2 p-lg-4 d-block"
                   href="https://www.instagram.com/tv/CMlcDr_DKtU/?utm_medium=copy_link"
                   target="_blank"
                 >
@@ -109,7 +109,7 @@ const IndexPage = () => {
               </div>
               <div className="col-lg-3 col-6">
                 <a
-                  className="p-4"
+                  className="p-2 p-lg-4 d-block"
                   href="https://www.instagram.com/p/CLfw4fQDoMf/?utm_medium=copy_link"
                   target="_blank"
                 >
@@ -118,7 +118,7 @@ const IndexPage = () => {
               </div>
               <div className="col-lg-3 col-6">
                 <a
-                  className="p-4"
+                  className="p-2 p-lg-4 d-block"
                   href="https://www.instagram.com/tv/CQzuToHlo2b/?utm_medium=copy_link"
                   target="_blank"
                 >
@@ -127,7 +127,7 @@ const IndexPage = () => {
               </div>
               <div className="col-lg-3 col-6">
                 <a
-                  className="p-4"
+                  className="p-2 p-lg-4 d-block"
                   href="https://www.chicmagazine.com.mx/magazines#details?ref=supp&date=2020-11-12&ratio=magazine&ratiow=737&ratioh=935&edition=2&id=202&sup=Chic%20Magazine"
                   target="_blank"
                 >

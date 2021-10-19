@@ -92,7 +92,7 @@ const Header = ({ homepage }) => {
                 <img alt="La Hora Sat" width="90" src={logoDesktop} />
               </Link>
             </div>
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a
                   href="https://wa.me/+525510722129"

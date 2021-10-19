@@ -16,17 +16,19 @@ export default function Layout({ children, homepage, title }) {
       </Helmet>
       <Header homepage={homepage} />
       <div className="page-content">{children}</div>
-      <div className="hero">
-        <div className="section section-gray container">
-          <div className="col-lg-10 mx-auto">
-            <h1 className="hero-title text-center">
-              Todo lo que necesitas saber sobre{" "}
-              <span className="bg-primary">el SAT</span> y la{" "}
-              <span className="bg-primary">vida financiera</span> contado por{" "}
-              <span className="bg-primary">millennials para millennials</span>{" "}
-              * 🤓💸
-            </h1>
-            <Subscribe />
+      <div className="hero section section-gray">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10 mx-auto">
+              <h2 className="hero-title text-center">
+                Todo lo que necesitas saber sobre{" "}
+                <span className="bg-primary">el SAT</span> y la{" "}
+                <span className="bg-primary">vida financiera</span> contado por{" "}
+                <span className="bg-primary">millennials para millennials</span>{" "}
+                * 🤓💸
+              </h2>
+              <Subscribe />
+            </div>
           </div>
         </div>
       </div>

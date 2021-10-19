@@ -106,9 +106,9 @@ h6 {
 }
 
 @media (max-width: 556px) {
-  h1 { font-size: 40px };
-  h2 { font-size: 34px };
-  h3 { font-size: 30px };
+  h1 { font-size: 40px!important };
+  h2 { font-size: 34px!important };
+  h3 { font-size: 30px!important };
 }
 
 /* bootstrap overrides */
