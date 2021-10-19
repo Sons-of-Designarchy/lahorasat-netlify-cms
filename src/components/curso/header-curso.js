@@ -35,7 +35,7 @@ const HeaderCurso = () => {
             </div>
             <div className="d-flex flex-column flex-md-row">
               <a
-                className="btn btn-primary btn-lg mb-3 mr-3"
+                className="btn btn-primary btn-lg mb-3 me-3"
                 style={{ width: "100%" }}
                 href="https://lahorasat.podia.com/curso-en-video"
                 data-podia-embed="link"

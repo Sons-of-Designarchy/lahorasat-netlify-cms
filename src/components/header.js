@@ -57,7 +57,7 @@ const Header = ({ homepage }) => {
               showMenu ? "navbar-collapse" : "collapse navbar-collapse"
             }
           >
-            <ul className="d-flex navbar-nav mr-auto">
+            <ul className="d-flex navbar-nav me-auto">
               <li className="nav-item">
                 <a href="/" className="nav-link">
                   Inicio

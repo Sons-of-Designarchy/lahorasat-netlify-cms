@@ -44,12 +44,12 @@ const CursoEnVideoPage = () => {
                 <div className="boxed-bullet p-4">
                   <h4>Curso básico en video para sobrevivir al SAT...anas 👹</h4>
                   <div className="d-flex py-3">
-                    <p className="label label-primary mr-2">$299 pesos</p>
+                    <p className="label label-primary me-2">$299 pesos</p>
                     <p className="label label-primary">Online</p>
                   </div>
                   <p className="font-xs text-secondary mb-3">* Pago 100% seguro, recibes acceso inmediato a los videos en alta calidad para siempre</p>
                   <a
-                    className="btn btn-secondary mb-3 mr-3 btn-lg"
+                    className="btn btn-secondary mb-3 me-3 btn-lg"
                     style={{ width: "100%" }}
                     href="https://lahorasat.podia.com/curso-en-video"
                     data-podia-embed="link"

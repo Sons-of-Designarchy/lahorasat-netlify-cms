@@ -21,8 +21,7 @@ const Cursos = () => {
 😉
           </p>
           <div className="row no-gutters">
-            <div className="col-lg-1"></div>
-            <div className="col-lg-5 mb-3">
+            <div className="col-lg-6 mb-3">
               <a
                 className="course-card rounded"
                 href="/curso-en-video"
@@ -30,7 +29,7 @@ const Cursos = () => {
                 <img src={curso} className="img-fluid" />
                 <div className="course-content">
                   <div className="d-flex mb-2">
-                    <div className="label label-primary mr-2">
+                    <div className="label label-primary me-2">
                       CURSO EN VIDEO
                     </div>
                     <div className="label label-primary">$299 MXN</div>
@@ -48,7 +47,7 @@ const Cursos = () => {
                 </div>
               </a>
             </div>
-            <div className="col-lg-5 mb-3">
+            <div className="col-lg-6 mb-3">
               <div
                 className="course-card rounded"
                 onClick={() => setOpenModal("taller-basico")}
@@ -56,11 +55,11 @@ const Cursos = () => {
                 <img src={taller} className="img-fluid" />
                 <div className="course-content">
                   <div className="d-flex mb-2">
-                    <div className="label label-primary mr-2">
+                    <div className="label label-primary me-2">
                       TALLER EN ZOOM
                     </div>
-                    <div className="label label-primary mr-2">$350 MXN</div>
-                    <div className="label label-primary">PRÓXIMAMENTE</div>
+                    <div className="label label-primary me-2">$350 MXN</div>
+                    {/* <div className="label label-primary">PRÓXIMAMENTE</div> */}
                   </div>
                   <h4 className="mb-1 text-secondary">
                     Taller online sobre el SAT
@@ -82,10 +81,10 @@ const Cursos = () => {
                 <img src={taller} className="img-fluid" />
                 <div className="course-content">
                   <div className="d-flex mb-2">
-                    <div className="label label-primary mr-2">
+                    <div className="label label-primary me-2">
                       TALLER ONLINE
                     </div>
-                    <div className="label label-primary mr-2">
+                    <div className="label label-primary me-2">
                       PRÓXIMAMENTE
                     </div>
                     <div className="label label-primary">$790 MXN</div>

@@ -26,7 +26,7 @@ const BannerTaller = ({showImage}) => {
             <li className="text-light font-sm mb-1">¿Qué se llena en una declaración y qué impuestos se presentan?</li>
             <li className="text-light font-sm mb-1">Sección de preguntas y consultas personales </li>
           </ul>
-          <div className="bg-primary text-secondary p-3 font-xs mr-5 mb-4">
+          <div className="bg-primary text-secondary p-3 font-xs me-5 mb-4">
             <ul>
               <li>El taller se impartirá por Zoom y tendrá una duración de 2hrs</li>
               <li>La liga se te enviará una vez hecha tu compra</li>
@@ -63,7 +63,7 @@ const BannerTaller = ({showImage}) => {
           </div>
           <div className="d-flex flex-column flex-md-row">
             <a
-              className="btn btn-primary btn-lg mb-3 mr-3"
+              className="btn btn-primary btn-lg mb-3 me-3"
               style={{ width: "100%" }}
               href="https://lahorasat.podia.com/ba5f7661-7174-48f0-af8a-c1352d91be2c"
               data-podia-embed="link"

@@ -19,8 +19,7 @@ const Asesorias = ({ title }) => {
             Tenemos dos modelos, si tienes dudas de cual elegir, <a href="https://wa.me/+525510722129" className="text-secondary text-underline">mándanos un Whatsapp</a>.
           </p>
           <div className="row no-gutters">
-            <div className="col-lg-1"></div>
-            <div className="col-lg-5 mb-3">
+            <div className="col-lg-6 mb-3">
               <div
                 className="course-card rounded"
                 onClick={() => setOpenModal("basica")}
@@ -28,10 +27,10 @@ const Asesorias = ({ title }) => {
                 <img src={basica} className="img-fluid" />
                 <div className="course-content">
                   <div className="d-flex mb-2">
-                    <div className="label label-primary mr-2">
+                    <div className="label label-primary me-2">
                       1 HORA
                     </div>
-                    <div className="label label-primary mr-2">
+                    <div className="label label-primary me-2">
                       VIA ZOOM
                     </div>
                     <div className="label label-primary">$650 MXN</div>
@@ -48,7 +47,7 @@ const Asesorias = ({ title }) => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 mb-3">
+            <div className="col-lg-6 mb-3">
               <div
                 className="course-card rounded"
                 onClick={() => setOpenModal("practica")}
@@ -56,10 +55,10 @@ const Asesorias = ({ title }) => {
                 <img src={practica} className="img-fluid" />
                 <div className="course-content">
                   <div className="d-flex mb-2">
-                    <div className="label label-primary mr-2">
+                    <div className="label label-primary me-2">
                       80 MIN
                     </div>
-                    <div className="label label-primary mr-2">
+                    <div className="label label-primary me-2">
                       VIA ZOOM
                     </div>
                     <div className="label label-primary">$950 MXN</div>

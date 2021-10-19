@@ -17,7 +17,7 @@ const BulletsCurso = ({ bullets }) => {
           <div className="row justify-content-center">
             <div className="col-md-6 col-lg-3">
               <a
-                className="btn btn-secondary mb-3 mr-3 btn-lg"
+                className="btn btn-secondary mb-3 me-3 btn-lg"
                 style={{ width: "100%" }}
                 href="https://lahorasat.podia.com/curso-en-video"
                 data-podia-embed="link"
