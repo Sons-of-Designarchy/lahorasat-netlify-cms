@@ -1,6 +1,6 @@
 import * as React from "react";
 import Asesorias from "../components/asesorias";
-import Layout from "../components/layout";
+import Layout from "../components/page-layout";
 
 // markup
 const AsesoriasPage = () => {

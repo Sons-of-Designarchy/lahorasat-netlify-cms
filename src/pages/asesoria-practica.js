@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/page-layout";
 import BannerAvanzada from "../components/banner-avanzada";
 
 // markup

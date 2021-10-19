@@ -1,6 +1,6 @@
 import * as React from "react";
 import Cursos from "../components/cursos";
-import Layout from "../components/layout";
+import Layout from "../components/page-layout";
 import Redes from "../img/redes.png";
 import Asesorias from "../components/asesorias";
 import telowkento from "../img/colabs/telokwento.png";

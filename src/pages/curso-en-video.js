@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/page-layout";
 import Asesorias from "../components/asesorias";
 import BulletsCurso from "../components/curso/bullets-curso";
 import HeaderCurso from "../components/curso/header-curso";

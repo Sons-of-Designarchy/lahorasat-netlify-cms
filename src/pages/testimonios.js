@@ -36,7 +36,7 @@ import review33 from "../img/reviews/32.png";
 import review34 from "../img/reviews/33.png";
 import review35 from "../img/reviews/34.png";
 import review36 from "../img/reviews/35.png";
-import Layout from "../components/layout";
+import Layout from "../components/page-layout";
 import Cursos from "../components/cursos";
 import Asesorias from "../components/asesorias";
 
