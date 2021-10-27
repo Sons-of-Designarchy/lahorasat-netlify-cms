@@ -48,9 +48,9 @@ const Cursos = () => {
               </a>
             </div>
             <div className="col-lg-6 mb-3">
-              <div
+              <a
                 className="course-card rounded"
-                onClick={() => setOpenModal("taller-basico")}
+                href="/taller-hacks-del-sat"
               >
                 <img src={taller} className="img-fluid" />
                 <div className="course-content">
@@ -58,49 +58,20 @@ const Cursos = () => {
                     <div className="label label-primary me-2">
                       TALLER EN ZOOM
                     </div>
-                    <div className="label label-primary me-2">$350 MXN</div>
-                    {/* <div className="label label-primary">PRÓXIMAMENTE</div> */}
+                    <div className="label label-primary me-2">$799 MXN</div>
                   </div>
                   <h4 className="mb-1 text-secondary">
-                    Taller online sobre el SAT
+                    Hacks del sat para Freelancers y RIF's
                   </h4>
                   <p className="font-sm text-secondary-l">
-                  A diferencia de nuestro curso en video, este curso es en vivo, por lo que aquí podrás resolver esas dudas sobre el SAT que no te dejan dormir tranquilx. 
+                    Aquí aprenderás de forma práctica cómo navegar a través del portal del SAT, cómo declarar, facturar y dónde encontrar tus documentos fiscales más importantes. 
                   </p>
                 </div>
                 <div className="p-3">
-                  <a className="btn btn-secondary btn-block disabled">Próximamente</a>
+                  <a className="btn btn-secondary btn-block">Ver fechas disponibles →</a>
                 </div>
-              </div>
+              </a>
             </div>
-            {/* <div className="col-lg-5 mb-3">
-              <div
-                className="course-card rounded"
-                // onClick={() => setOpenModal("taller")}
-              >
-                <img src={taller} className="img-fluid" />
-                <div className="course-content">
-                  <div className="d-flex mb-2">
-                    <div className="label label-primary me-2">
-                      TALLER ONLINE
-                    </div>
-                    <div className="label label-primary me-2">
-                      PRÓXIMAMENTE
-                    </div>
-                    <div className="label label-primary">$790 MXN</div>
-                  </div>
-                  <h4 className="mb-1 text-secondary">
-                  Hacks del SAT para Freelancers
-                  </h4>
-                  <p className="font-sm text-secondary-l">
-                    Aprenderás a navegar en el portal, emitir facturas y hacer tus declaraciones. 
-                  </p>
-                </div>
-                <div className="p-3">
-                  <a className="btn btn-secondary btn-block disabled">Proximamente...</a>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
