@@ -8,7 +8,7 @@ const bullets = [
   "Cómo revisar tu Buzón Tributario",
   "Dónde encontrar tus documentos más importantes dentro del portal.",
   "Cómo realizar una factura (CFDI)",
-  "¿Qué puedo deducir como freelancer",
+  "¿Qué puedo deducir como freelancer?",
   "¿Estoy declarando de manera correcta? ",
   "¿Qué se llena en una declaración y qué impuestos se presentan?",
   "Sección de preguntas y consultas personales",
