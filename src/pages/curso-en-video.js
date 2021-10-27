@@ -54,7 +54,7 @@ const CursoEnVideoPage = () => {
                     href="https://lahorasat.podia.com/curso-en-video"
                     data-podia-embed="link"
                   >
-                    Pagar en linea
+                    Pagar en línea
                   </a>
                   <a
                     className="btn btn-outline-secondary btn-lg mb-3"

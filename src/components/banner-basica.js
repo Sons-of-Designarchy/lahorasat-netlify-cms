@@ -59,7 +59,7 @@ const BannerCursos = () => {
               href="https://lahorasat.podia.com/asesoria-basica"
               data-podia-embed="link"
             >
-              Pagar en linea
+              Pagar en línea
             </a>
             <a
               className="btn btn-outline-primary btn-lg mb-3"

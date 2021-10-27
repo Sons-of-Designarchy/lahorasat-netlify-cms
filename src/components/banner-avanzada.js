@@ -62,7 +62,7 @@ const BannerAvanzada = () => {
               href="https://lahorasat.podia.com/asesoria-practica"
               data-podia-embed="link"
             >
-              Pagar en linea
+              Pagar en línea
             </a>
             <a
               className="btn btn-outline-primary btn-lg mb-3"

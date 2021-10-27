@@ -30,7 +30,7 @@ const FechasTaller = () => {
                     href="https://lahorasat.podia.com/a7da7413-4937-46a2-b0a2-6390a7905c56"
                     data-podia-embed="link"
                   >
-                    Pagar en linea
+                    Pagar en línea
                   </a>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const FechasTaller = () => {
                     href="https://lahorasat.podia.com/227f1554-bce7-42f6-9024-8d04cea14677"
                     data-podia-embed="link"
                   >
-                    Pagar en linea
+                    Pagar en línea
                   </a>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const FechasTaller = () => {
           </div>
           <div className="mt-5">
             <p className="text-secondary text-center">
-              ¿Tienes dudas de cual elegir o como pagar? {" "}
+              ¿Tienes dudas de cuál elegir o cómo pagar? {" "}
               <a
                 href="https://wa.me/+525510722129"
                 className="text-secondary text-underline"

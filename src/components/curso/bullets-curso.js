@@ -22,7 +22,7 @@ const BulletsCurso = ({ bullets }) => {
                 href="https://lahorasat.podia.com/curso-en-video"
                 data-podia-embed="link"
               >
-                Pagar en linea
+                Pagar en línea
               </a>
             </div>
             <div className="col-md-6 col-lg-3">

@@ -68,7 +68,7 @@ const BannerTaller = ({showImage}) => {
               href="https://lahorasat.podia.com/ba5f7661-7174-48f0-af8a-c1352d91be2c"
               data-podia-embed="link"
             >
-              Pagar en linea
+              Pagar en línea
             </a>
             <a
               className="btn btn-outline-primary btn-lg mb-3"
