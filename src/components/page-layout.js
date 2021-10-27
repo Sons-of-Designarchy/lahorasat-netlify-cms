@@ -20,13 +20,13 @@ export default function Layout({ children, homepage, title }) {
         <div className="container">
           <div className="row">
             <div className="col-lg-10 mx-auto">
-              <h2 className="hero-title text-center">
+              <h3 className="hero-title text-center pt-4">
                 Todo lo que necesitas saber sobre{" "}
                 <span className="bg-primary">el SAT</span> y la{" "}
                 <span className="bg-primary">vida financiera</span> contado por{" "}
                 <span className="bg-primary">millennials para millennials</span>{" "}
                 * 🤓💸
-              </h2>
+              </h3>
               <Subscribe />
             </div>
           </div>
