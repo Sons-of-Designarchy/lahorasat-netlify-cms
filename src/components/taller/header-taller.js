@@ -10,6 +10,7 @@ const HeaderTaller = () => {
       <div className="container">
         <div className="row no-gutters align-items-center">
           <div className="col-lg-6 p-lg-r">
+            <p className="font-xs uppercase text-primary">Taller: Hacks del Sat para Freelancers y Rifs</p>
             <h4>
               ¿Tus clientes te piden factura y no tienes ni idea de cómo sacarla? {" "}
               <span className="text-primary">

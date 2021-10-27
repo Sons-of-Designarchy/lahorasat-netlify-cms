@@ -18,7 +18,7 @@ const bullets = [
 const CursoEnVideoPage = () => {
   return (
     <>
-      <Layout>
+      <Layout title="Taller Hacks del Sat para Freelancers y Rifs">
         <HeaderTaller />
         <BulletsTaller bullets={bullets} />
         <FechasTaller />
