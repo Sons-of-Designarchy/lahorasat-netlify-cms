@@ -84,7 +84,7 @@ const IndexPage = () => {
               <div className="col-lg-3 col-6">
                 <a
                   className="p-2 p-lg-4 d-block"
-                  href="https://fondeadora.com/"
+                  href="https://www.instagram.com/tv/CVTceIVFZRR/"
                   target="_blank"
                 >
                   <img src={fondeadora} />
