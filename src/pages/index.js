@@ -6,7 +6,8 @@ import Asesorias from "../components/asesorias";
 import telowkento from "../img/colabs/telokwento.png";
 import mujeres from "../img/colabs/mujeres.png";
 import fintual from "../img/colabs/fintual.png";
-import casaVolcan from "../img/colabs/casa-volcan.png";
+import fondeadora from "../img/colabs/fondeadora.png";
+import ninas from "../img/colabs/ninas.png";
 import tipo from "../img/colabs/tipo-y-asi.png";
 import animal from "../img/colabs/animal.png";
 import legalmente from "../img/colabs/legalmente-creativo.png";
@@ -61,7 +62,7 @@ const IndexPage = () => {
         <div className="section section-white">
           <div className="container">
             <h4 className="text-center mb-4">Algunas de nuestras colaboraciones</h4>
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-lg-3 col-6">
                 <a
                   className="p-2 p-lg-4 d-block"
@@ -83,10 +84,19 @@ const IndexPage = () => {
               <div className="col-lg-3 col-6">
                 <a
                   className="p-2 p-lg-4 d-block"
-                  href="https://www.instagram.com/p/COjeV97s6iM/"
+                  href="https://fondeadora.com/"
                   target="_blank"
                 >
-                  <img src={casaVolcan} />
+                  <img src={fondeadora} />
+                </a>
+              </div>
+              <div className="col-lg-3 col-6">
+                <a
+                  className="p-2 p-lg-4 d-block"
+                  href="https://open.spotify.com/episode/70ZP4KlU9QO21hQjsTv8aH?si=FSCQzSL1S--4WI3Jyo2oQg"
+                  target="_blank"
+                >
+                  <img src={ninas} />
                 </a>
               </div>
               <div className="col-lg-3 col-6">
