@@ -10,7 +10,7 @@ const FechasTaller = () => {
             Elige una fecha para tomar el taller
           </h3>
           <div className="row justify-content-center">
-            <div className="col-lg-5 col-xl-4 mb-3">
+            {/* <div className="col-lg-5 col-xl-4 mb-3">
               <div className="boxed-bullet p-4 text-left">
                 <p className="font-xs uppercase  mb-0">
                   Hacks del sat para Freelancers y RIF's
@@ -34,7 +34,7 @@ const FechasTaller = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-5 col-xl-4 mb-3">
               <div className="boxed-bullet p-4 text-left">
                 <p className="font-xs uppercase  mb-0">
