@@ -10,13 +10,13 @@ const FechasTaller = () => {
             Elige una fecha para tomar el taller
           </h3>
           <div className="row justify-content-center">
-            {/* <div className="col-lg-5 col-xl-4 mb-3">
+            <div className="col-lg-6 col-xl-4 mb-3">
               <div className="boxed-bullet p-4 text-left">
                 <p className="font-xs uppercase  mb-0">
                   Hacks del sat para Freelancers y RIF's
                 </p>
                 <h4>
-                  Sábado 30 de Oct. <br /> 12 a 2pm
+                  Sábado 11 de Dic. <br /> 12 a 2pm
                 </h4>
                 <div className="d-flex py-1">
                   <p className="label label-primary me-2">$799 pesos</p>
@@ -27,21 +27,21 @@ const FechasTaller = () => {
                   <a
                     className="btn btn-secondary mb-3 me-3"
                     style={{ width: "100%" }}
-                    href="https://lahorasat.podia.com/a7da7413-4937-46a2-b0a2-6390a7905c56"
+                    href="https://lahorasat.podia.com/adf1aa87-56a0-4f22-a5d9-572f805e50cb"
                     data-podia-embed="link"
                   >
                     Pagar en línea
                   </a>
                 </div>
               </div>
-            </div> */}
-            <div className="col-lg-5 col-xl-4 mb-3">
+            </div>
+            <div className="col-lg-6 col-xl-4 mb-3">
               <div className="boxed-bullet p-4 text-left">
                 <p className="font-xs uppercase  mb-0">
                   Hacks del sat para Freelancers y RIF's
                 </p>
                 <h4>
-                  Martes 2 de Nov. <br /> 7 a 9pm
+                  Martes 14 de Dic. <br /> 7 a 9pm
                 </h4>
                 <div className="d-flex py-1">
                   <p className="label label-primary me-2">$799 pesos</p>
@@ -52,7 +52,7 @@ const FechasTaller = () => {
                   <a
                     className="btn btn-secondary mb-3 me-3"
                     style={{ width: "100%" }}
-                    href="https://lahorasat.podia.com/227f1554-bce7-42f6-9024-8d04cea14677"
+                    href="https://lahorasat.podia.com/a122b851-496c-4924-ad59-f4ba67156f2d"
                     data-podia-embed="link"
                   >
                     Pagar en línea
