@@ -220,11 +220,17 @@ ul {
   position: relative;
 }
 
+@media (min-width: 768px) {
+
+.navbar-nav {
+  padding-left: 6rem;
+}
+}
+
 .logo-container {
   margin-left: auto;
   margin-right: auto;
   left: 0;
-  right: 0;
   text-align: center;
   position: absolute;
 }
@@ -330,13 +336,17 @@ ul {
   min-height: 60px;
 }
 
+.navbar-collapse {
+  position: relative;
+}
+
 .navbar-light .navbar-toggler {
   border: 0;
 }
 
 .nav-link {
   color: var(--purple)!important;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 500;
   border-bottom: 3px solid transparent;
   padding: 16px;

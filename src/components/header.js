@@ -86,6 +86,15 @@ const Header = ({ homepage }) => {
                   Testimonios
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  activeClassName="active"
+                  href="/blog"
+                >
+                  Blog
+                </a>
+              </li>
             </ul>
             <div className="logo-container d-none d-lg-block">
               <Link to="/">

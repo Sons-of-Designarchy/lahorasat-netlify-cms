@@ -6,6 +6,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/page-layout";
 import Content, { HTMLContent } from "../components/Content";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import Asesorias from "../components/asesorias";
 
 export const BlogPostTemplate = ({
   content,
@@ -96,6 +97,7 @@ const BlogPost = ({ data }) => {
         title={post.frontmatter.title}
         image={post.frontmatter.featuredimage}
       />
+      <Asesorias />
     </Layout>
   );
 };
@@ -120,7 +122,7 @@ export const pageQuery = graphql`
         tags
         featuredimage {
           childImageSharp {
-            fluid(maxWidth: 120, quality: 100) {
+            fluid(maxWidth: 1000, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
