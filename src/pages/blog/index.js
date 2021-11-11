@@ -7,7 +7,15 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        blog
+        <div className="section section-purple">
+          <div className="container">
+            <h1 className="text-center text-primary mb-0">
+              Bienvenidx a nuestro blog
+            </h1>
+            <p className="text-light text-center">Aquí encontrarás todo lo que necesitas para saber cómo funciona el SAT. </p>
+          </div>
+        </div>
+
         <section className="section">
           <div className="container">
             <div className="content">

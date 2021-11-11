@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { kebabCase } from 'lodash-es'
 
 class BlogRoll extends React.Component {
   render() {
@@ -9,12 +10,12 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
+      <div className="row justify-content-center">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <Link to={post.fields.slug} className="col-lg-6" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`course-card ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
@@ -29,29 +30,29 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
+                  <div className="p-3">
+                    {post.frontmatter.tags && (
+                      <>
+                        <div className="d-flex">
+                          {post.frontmatter.tags.map((tag) => (
+                            <div className="label label-primary label-sm" style={{ marginRight: '0.33rem' }} key={tag + `tag`} >
+                              <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                            </div>
+                          ))}
+                        </div>
+                      </>
+                    )}
+                    <h3 className="mt-2">{post.frontmatter.title}</h3>
+                    <p className="font-sm">{post.frontmatter.description}</p>
+                    <Link className="btn btn-secondary d-block mt-3" to={post.fields.slug}>
+                      Seguir leyendo →
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
+                  </div>
                 </header>
                 <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
                 </p>
               </article>
-            </div>
+            </Link>
           ))}
       </div>
     )
@@ -83,7 +84,9 @@ export default () => (
               }
               frontmatter {
                 title
+                tags
                 templateKey
+                description
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 featuredimage {

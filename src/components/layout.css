@@ -552,3 +552,7 @@ column-count:         4;
   border-bottom: 1px solid rgba(96, 81, 189, 0.1);
 }
 
+.blog-content p {
+  font-size: 24px;
+}
+
