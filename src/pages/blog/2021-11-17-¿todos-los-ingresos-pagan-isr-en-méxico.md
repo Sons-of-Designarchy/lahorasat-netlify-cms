@@ -11,6 +11,8 @@ description: >-
   Aquí les dejamos algunos de los más comunes.
 featuredpost: true
 featuredimage: /img/frame-5.png
+tags:
+  - Impuestos
 ---
 Los ingresos ante el SAT son aquellos que recibes por realizar una actividad económica, ya sea de manera independiente o bajo contratación. 
 
