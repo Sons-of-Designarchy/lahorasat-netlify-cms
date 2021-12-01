@@ -131,26 +131,25 @@ button {
 }
 
 .font-xs {
-  font-size: 0.7rem;
+  font-size: 0.7rem!important;
 }
 
 .font-sm {
-  font-size: 0.85rem;
+  font-size: 0.85rem!important;
 }
 
 .font-lg {
-  font-size: 1.2rem;
+  font-size: 1.2rem!important;
 }
 
 .font-xl {
-  font-size: 1.4rem;
+  font-size: 1.4rem!important;
 }
 
-.uppercase {
-  letter-spacing: 1px;
+.text-uppercase {
+  letter-spacing: 1px!important;
   text-transform: uppercase;
 }
-
 
 ul {
   padding-left: 1rem;
@@ -549,20 +548,31 @@ column-count:         4;
   border: 1px solid #603DBD;
   box-shadow: 5px 5px 0 #603DBD;
   padding: 0.5rem;
-  font-size: 17px;
-  font-weight: 500;
-  font-weight: 600;
+  font-size: 18px;
+  white-space: nowrap;
+  margin: 0.33rem;
 }
-
 .light {
   background: #fff!important;
   box-shadow: 5px 5px 0 #D5FC6D!important;
   box-shadow: none!important;
-  border: 0;
-  border-bottom: 1px solid rgba(96, 81, 189, 0.1);
 }
+
+.card {
+  background: #fff;
+  border: 1px solid #603DBD;
+  box-shadow: 5px 5px 0 #603DBD;
+  padding: 1rem;
+  font-size: 18px;
+  border-radius: 0;
+}
+
 
 .blog-content p {
   font-size: 24px;
+}
+
+.curso-video-iframe {
+  padding-left: 2rem;
 }
 

@@ -6,7 +6,7 @@ const BulletsTaller = ({ bullets }) => {
     <>
       <div className="section section-green text-center">
         <div className="container">
-          <p className="uppercase font-xs">¿qué aprenderé aquí?</p>
+          <p className="text-uppercase font-xs">¿qué aprenderé aquí?</p>
           <h2 className="mb-5">Hacks del sat para Freelancers y RIF's</h2>
           <div className="boxed-bullet-container row mb-5 justify-content-center">
             {bullets.map((bullet) => (

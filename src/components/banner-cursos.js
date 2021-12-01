@@ -7,7 +7,7 @@ const BannerCursos = () => {
     <>
       <div className="row no-gutters align-items-center">
         <div className="col-md-6">
-          <p className="text-light uppercase mb-0 font-sm">CURSO EN VIDEO</p>
+          <p className="text-light text-uppercase mb-0 font-sm">CURSO EN VIDEO</p>
           <h1 className="mb-3 text-primary">
             Pasos básicos para sobrevivir al SATanas
           </h1>

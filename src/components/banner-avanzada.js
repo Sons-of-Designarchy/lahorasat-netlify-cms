@@ -7,7 +7,7 @@ const BannerAvanzada = () => {
     <div className="section-purple">
       <div className="row no-gutters">
         <div className="col-md-6">
-          <p className="text-light uppercase mb-0 font-sm">80 MINS VIA ZOOM</p>
+          <p className="text-light text-uppercase mb-0 font-sm">80 MINS VIA ZOOM</p>
           <h1 className="mb-3 text-primary">
           Asesoría Practica para Personas Físicas
           </h1>

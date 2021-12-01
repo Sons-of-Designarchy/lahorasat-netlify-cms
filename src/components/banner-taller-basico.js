@@ -7,7 +7,7 @@ const BannerTallerBasico = () => {
     <>
       <div className="row no-gutters">
         <div className="col-md-6">
-          <p className="text-light uppercase mb-0 font-sm">TALLER EN ZOOM - 2 OCT - 11AM A 12:30PM</p>
+          <p className="text-light text-uppercase mb-0 font-sm">TALLER EN ZOOM - 2 OCT - 11AM A 12:30PM</p>
           <h1 className="mb-3 text-primary">Taller online sobre el SAT</h1>
           <img
             src={prev}
