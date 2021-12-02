@@ -4,6 +4,15 @@ import Asesorias from "../components/asesorias";
 import HeaderCursoNew from "../components/curso/header-curso-new";
 import BulletsCursoNew from "../components/curso/bullets-curso-new";
 import AboutUs from "../components/about-us";
+import Temario1 from "../img/cursos/curso-en-video/temario-1.svg";
+import Temario2 from "../img/cursos/curso-en-video/temario-2.svg";
+import Temario3 from "../img/cursos/curso-en-video/temario-3.svg";
+import Millenials from "../img/cursos/curso-en-video/dirigido-millenials.svg";
+import Freelancers from "../img/cursos/curso-en-video/dirigido-freelancers.svg";
+import Publico from "../img/cursos/curso-en-video/dirigido-publico.svg";
+import AcentoBlanco from "../img/acento-blanco.svg";
+import BuyCard from "../components/curso/buy-card";
+import Colaboraciones from "../components/colaboraciones";
 
 const cursoBullets = [
   "¿Qué es el SAT?",
@@ -17,52 +26,34 @@ const cursoBullets = [
 const CursoEnVideoPage = () => {
   return (
     <>
-      <Layout title="Curso Básico">
+      <Layout
+        title="Curso Básico"
+        headerAction={
+          <div style={{ marginRight: 8 }}>
+            <a
+              className="btn btn-menu btn-menu-purple"
+              href="https://lahorasat.podia.com/curso-en-video"
+              data-podia-embed="link"
+            >
+              Comprar curso
+            </a>
+          </div>
+        }
+      >
         <HeaderCursoNew />
         <BulletsCursoNew bullets={cursoBullets} />
-        <div className="section section-white">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">imagen</div>
-              <div className="col-lg-6">
-                <div className="px-lg-3">
-                  <div className="boxed-bullet font-xs text-uppercase d-inline-block mb-4">
-                    Curso en video - 30min
-                  </div>
-                  <h2>Pasos básicos para sobrevivir al SATanás</h2>
-                  <p>
-                    Costo:
-                    <span className="d-inline-block ml-2 mr-2 text-decoration-line-through opacity-50">
-                      $499
-                    </span>{" "}
-                    <span className="font-xl">$299</span>
-                  </p>
-                  <p className="font-xs">
-                    Pagas en línea de manera 100% segura y recibes acceso
-                    permanente al curso.{" "}
-                  </p>
-                  <div className="d-flex flex-column flex-md-row">
-                    <a
-                      className="btn btn-primary btn-lg mb-3 me-3"
-                      style={{ width: "100%" }}
-                      href="https://lahorasat.podia.com/curso-en-video"
-                      data-podia-embed="link"
-                    >
-                      Comprar
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <BuyCard />
+
+        {/* temario */}
 
         <div className="section text-center">
           <div className="container">
-            <h3>Temario del curso</h3>
+            <h3 className="mb-5">Temario del curso</h3>
             <div className="row mb-3">
               <div className="col-lg-4">
-                <div className="mb-3">{/* image */}</div>
+                <div className="mb-3">
+                  <img src={Temario1} className="img-fluid" />
+                </div>
                 <h6>Entendamos un poco al SAT</h6>
                 <ul className="font-sm">
                   <li>¿Cómo funciona?</li>
@@ -70,7 +61,9 @@ const CursoEnVideoPage = () => {
                 </ul>
               </div>
               <div className="col-lg-4">
-                <div className="mb-3">{/* image */}</div>
+                <div className="mb-3">
+                  <img src={Temario2} className="img-fluid" />
+                </div>
                 <h6>Obligaciones ante el SAT</h6>
                 <ul className="font-sm">
                   <li>¿Qué son los regímenes?</li>
@@ -79,7 +72,9 @@ const CursoEnVideoPage = () => {
                 </ul>
               </div>
               <div className="col-lg-4">
-                <div className="mb-3">{/* image */}</div>
+                <div className="mb-3">
+                  <img src={Temario3} className="img-fluid" />
+                </div>
                 <h6>Información que cura</h6>
                 <ul className="font-sm">
                   <li>Deducciones: Cómo usarlas a tu favor</li>
@@ -119,10 +114,10 @@ const CursoEnVideoPage = () => {
                 </ul>
               </div>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 text-center">
               <h2>Dirigido a</h2>
               <p>personas que el SAT les quita el sueño... por ejemplo:</p>
-              <div className="row mt-5">
+              <div className="row mt-3">
                 <div className="col-lg-4">
                   <div className="card">
                     <h5>Millenials</h5>
@@ -130,7 +125,7 @@ const CursoEnVideoPage = () => {
                       Que acaban de incorporarse a la vida de “adulto” y quieren
                       saber quiúbole con el SAT
                     </p>
-                    {/* imagen here */}
+                    <img src={Millenials} width="100" className="mx-auto" />
                   </div>
                 </div>
                 <div className="col-lg-4">
@@ -140,7 +135,7 @@ const CursoEnVideoPage = () => {
                       Que tienen que dar factura a sus clientes y quieren saber
                       cómo hacerlo y usar esto a su favor.
                     </p>
-                    {/* imagen here */}
+                    <img src={Freelancers} width="100" className="mx-auto" />
                   </div>
                 </div>
                 <div className="col-lg-4">
@@ -150,7 +145,7 @@ const CursoEnVideoPage = () => {
                       Que quiere aprender cómo sobrevivir al SAT de manera
                       sencilla.
                     </p>
-                    {/* imagen here */}
+                    <img src={Publico} width="100" className="mx-auto" />
                   </div>
                 </div>
               </div>
@@ -158,11 +153,12 @@ const CursoEnVideoPage = () => {
           </div>
         </div>
         <div className="section section-green d-lg-flex justify-content-center">
-          {/* imagen 1 */}
+          <img src={AcentoBlanco} width="50" className="mx-auto" />
           <h1>Aprende a sobrevivir al SATanás</h1>
-          {/* imagen 1 */}
+          <img src={AcentoBlanco} width="50" className="mx-auto" />
         </div>
         <AboutUs />
+        <Colaboraciones />
         <Asesorias title="¿Tienes una duda especifica? Agenda una asesoria" />
       </Layout>
     </>
