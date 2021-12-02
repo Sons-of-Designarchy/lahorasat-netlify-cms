@@ -52,7 +52,7 @@ const CursoEnVideoPage = () => {
             <div className="row mb-3">
               <div className="col-lg-4">
                 <div className="mb-3">
-                  <img src={Temario1} className="img-fluid" />
+                  <img src={Temario1} className="img-fluid" width="100" />
                 </div>
                 <h6>Entendamos un poco al SAT</h6>
                 <ul className="font-sm">
@@ -62,7 +62,7 @@ const CursoEnVideoPage = () => {
               </div>
               <div className="col-lg-4">
                 <div className="mb-3">
-                  <img src={Temario2} className="img-fluid" />
+                  <img src={Temario2} className="img-fluid" width="100" />
                 </div>
                 <h6>Obligaciones ante el SAT</h6>
                 <ul className="font-sm">
@@ -73,7 +73,7 @@ const CursoEnVideoPage = () => {
               </div>
               <div className="col-lg-4">
                 <div className="mb-3">
-                  <img src={Temario3} className="img-fluid" />
+                  <img src={Temario3} className="img-fluid" width="100" />
                 </div>
                 <h6>Información que cura</h6>
                 <ul className="font-sm">
@@ -119,7 +119,7 @@ const CursoEnVideoPage = () => {
               <p>personas que el SAT les quita el sueño... por ejemplo:</p>
               <div className="row mt-3">
                 <div className="col-lg-4">
-                  <div className="card">
+                  <div className="card mb-3">
                     <h5>Millenials</h5>
                     <p className="font-xs mb-3">
                       Que acaban de incorporarse a la vida de “adulto” y quieren
@@ -129,7 +129,7 @@ const CursoEnVideoPage = () => {
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="card">
+                  <div className="card mb-3">
                     <h5>Freelancers</h5>
                     <p className="font-xs mb-3">
                       Que tienen que dar factura a sus clientes y quieren saber
@@ -139,7 +139,7 @@ const CursoEnVideoPage = () => {
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <div className="card">
+                  <div className="card mb-3">
                     <h5>Público en general</h5>
                     <p className="font-xs mb-3">
                       Que quiere aprender cómo sobrevivir al SAT de manera
@@ -152,7 +152,7 @@ const CursoEnVideoPage = () => {
             </div>
           </div>
         </div>
-        <div className="section section-green d-lg-flex justify-content-center">
+        <div className="section section-green d-flex justify-content-center text-center">
           <img src={AcentoBlanco} width="50" className="mx-auto" />
           <h1>Aprende a sobrevivir al SATanás</h1>
           <img src={AcentoBlanco} width="50" className="mx-auto" />

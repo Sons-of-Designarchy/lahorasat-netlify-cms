@@ -591,15 +591,15 @@ ul {
 }
 
 .image-stroke-purple {
-  border-radius: 30px;
+  border-radius: 20px;
   border: 1px solid #603dbd;
-  box-shadow: 1rem 1rem 0 #603dbd;
+  box-shadow: 0.66rem 0.66rem 0 #603dbd;
 }
 
 .image-stroke-green {
-  border-radius: 30px;
+  border-radius: 20px;
   border: 1px solid #603dbd;
-  box-shadow: 1rem 1rem 0 #d5fc6d;
+  box-shadow: 0.66rem 0.66rem 0 #d5fc6d;
 }
 
 .about-number {

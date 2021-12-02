@@ -49,21 +49,21 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className="row pt-3">
+          <div className="row pt-3 mx-auto text-center">
             <div className="col-lg-4 about-number">
               <img src={Cora} width="70" />
               +40k
-              <img src={Instagram} width="45" />
+              <a href="https://www.instagram.com/lahorasat/" tartget="_blank"><img src={Instagram} width="45" /></a>
             </div>
             <div className="col-lg-4 about-number">
               <img src={Like} width="70" />
               2.3k
-              <img src={Facebook} width="45" />
+              <a href="https://www.facebook.com/profile.php?id=100063771390136" target="_blank"><img src={Facebook} width="45" /></a>
             </div>
             <div className="col-lg-4 about-number">
               <img src={Cora} width="70" />
               3k
-              <img src={Twitter} width="45" />
+              <a href="https://twitter.com/LahoraSat/" target="_blank"><img src={Twitter} width="45" /></a>
             </div>
           </div>
         </div>

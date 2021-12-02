@@ -7,8 +7,8 @@ const BuyCard = () => {
         <div className="section section-white">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 px-lg-5">
-                <img src={Chicas} className="image-stroke-purple img-fluid" />
+              <div className="col-lg-6 px-4 px-lg-5">
+                <img src={Chicas} className="image-stroke-purple img-fluid mb-5" />
               </div>
               <div className="col-lg-6">
                 <div className="px-lg-3">
