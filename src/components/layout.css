@@ -610,3 +610,16 @@ ul {
 .about-number svg {
   margin: 8px;
 }
+
+.whats-floating {
+  position: fixed;
+  bottom: 0rem;
+  right: 0rem;
+  background: #603dbd;
+  border-top-left-radius: 20px;
+  padding: 0.5rem;
+}
+
+.whats-floating img {
+  width: 54px;
+}

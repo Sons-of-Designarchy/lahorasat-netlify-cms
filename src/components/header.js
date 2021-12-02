@@ -88,11 +88,7 @@ const Header = ({ homepage, headerAction }) => {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  activeClassName="active"
-                  href="/blog"
-                >
+                <a className="nav-link" activeClassName="active" href="/blog">
                   Blog
                 </a>
               </li>
@@ -103,23 +99,18 @@ const Header = ({ homepage, headerAction }) => {
               </Link>
             </div>
             <ul className="navbar-nav ms-auto">
-              {headerAction && (
-                <li className="nav-item">
-                  {headerAction}
-                </li>
-              )}
-              {/* <li className="nav-item">
-                <a
-                  href="https://wa.me/+525510722129"
-                  target="_blank"
-                >
-                  <img src={Whats} />
-                </a>
-              </li> */}
+              {headerAction && <li className="nav-item">{headerAction}</li>}
             </ul>
           </div>
         </div>
       </nav>
+      <a
+        href="https://wa.me/+525510722129"
+        target="_blank"
+        className="whats-floating"
+      >
+        <img src={Whats} />
+      </a>
     </header>
   );
 };
