@@ -13,7 +13,7 @@ class BlogRoll extends React.Component {
       <div className="row justify-content-center">
         {posts &&
           posts.map(({ node: post }) => (
-            <Link to={post.fields.slug} className="col-lg-6" key={post.id}>
+            <Link to={post.fields.slug} className="col-lg-6 mb-4" key={post.id}>
               <article
                 className={`course-card ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
@@ -30,7 +30,7 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
-                  <div className="p-3">
+                  <div className="p-3 featured-content">
                     {post.frontmatter.tags && (
                       <>
                         <div className="d-flex">
