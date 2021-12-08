@@ -143,6 +143,10 @@ button {
   color: var(--purple-light) !important;
 }
 
+.font-xxs {
+  font-size: 0.6rem !important;
+}
+
 .font-xs {
   font-size: 0.7rem !important;
 }
@@ -573,6 +577,12 @@ ul {
   box-shadow: none !important;
 }
 
+.boxed-bullet .green {
+  background: var(--green) !important;
+  box-shadow: 5px 5px 0 #d5fc6d !important;
+  box-shadow: none !important;
+}
+
 .card {
   background: #fff;
   border: 1px solid #603dbd;
@@ -580,6 +590,12 @@ ul {
   padding: 1rem;
   font-size: 18px;
   border-radius: 0;
+}
+
+.card-purple {
+  background: var(--purple);
+  border: 1px solid var(--green);
+  box-shadow: 5px 5px 0 var(--green);
 }
 
 .blog-content p {

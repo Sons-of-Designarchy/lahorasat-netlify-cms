@@ -49,6 +49,25 @@ const CursoEnVideoPage = () => {
 
         <div className="section text-center">
           <div className="container">
+            <h3 className="mb-4">
+              ¿Qué aprenderás aqui?
+            </h3>
+            <div className="card card-purple mb-5">
+              <ul className="row text-center">
+                <div className="col-lg-4 mt-3">
+                  <h5 className="text-primary">¿Cómo incorporarte al SAT?</h5>
+                  <p className="text-light mb-0 font-sm">De una forma correcta y sin complicaciones</p>
+                </div>
+                <div className="col-lg-4 mt-3">
+                  <h5 className="text-primary">Pro tips</h5>
+                  <p className="text-light mb-0 font-sm">Para llevar tu contabilidad de manera sencilla</p>
+                </div>
+                <div className="col-lg-4 mt-3">
+                  <h5 className="text-primary">Primeros pasos</h5>
+                  <p className="text-light m-0 font-sm">Pro tips para llevar tu contabilidad de manera sencilla</p>
+                </div>
+              </ul>
+            </div>
             <h3 className="mb-5">Temario del curso</h3>
             <div className="row mb-3">
               <div className="col-lg-4">
@@ -83,40 +102,8 @@ const CursoEnVideoPage = () => {
                 </ul>
               </div>
             </div>
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="boxed-bullet light text-uppercase font-xs d-inline-block">
-                  ¿Qué aprenderás aqui?
-                </div>
-                <ul className="font-sm">
-                  <li>
-                    Cómo incorporarte de forma correcta (y que te convenga) ante
-                    el SAT
-                  </li>
-                  <li>
-                    Primeros pasos para la vida fiscal: obligaciones y derechos
-                  </li>
-                  <li>
-                    Pro tips para llevar tu contabilidad de manera sencilla
-                  </li>
-                </ul>
-              </div>
-              <div className="col-lg-6">
-                <div className="boxed-bullet light text-uppercase font-xs d-inline-block">
-                  Este curso incluye:
-                </div>
-                <ul className="font-sm">
-                  <li>7 lecciones para aprender lo básico del SAT.</li>
-                  <li>eBook del curso para que repases la info.</li>
-                  <li>
-                    Material extra de apoyo: lista de deducciones personales y
-                    autorizadas.
-                  </li>
-                </ul>
-              </div>
-            </div>
             <div className="mt-5 text-center">
-              <h2>Dirigido a</h2>
+              <h3>Dirigido a</h3>
               <p>personas que el SAT les quita el sueño... por ejemplo:</p>
               <div className="row mt-3">
                 <div className="col-lg-4">
