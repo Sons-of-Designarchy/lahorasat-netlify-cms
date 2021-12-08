@@ -4,6 +4,7 @@ import Layout from "../components/page-layout";
 import Redes from "../img/redes.png";
 import Asesorias from "../components/asesorias";
 import Colaboraciones from "../components/colaboraciones";
+import BlogLatest from "../components/blog-latest";
 
 // markup
 const IndexPage = () => {
@@ -52,6 +53,7 @@ const IndexPage = () => {
           <Asesorias />
         </div>
         <Colaboraciones />
+        <BlogLatest />
       </Layout>
     </>
   );

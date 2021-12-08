@@ -14,6 +14,7 @@ import AcentoBlanco from "../img/acento-blanco.svg";
 import BuyCard from "../components/curso/buy-card";
 import Colaboraciones from "../components/colaboraciones";
 import Reviews from "../components/reviews";
+import BlogLatest from "../components/blog-latest";
 
 const cursoBullets = [
   "¿Qué es el SAT?",
@@ -148,6 +149,7 @@ const CursoEnVideoPage = () => {
         <Reviews />
         <AboutUs />
         <Colaboraciones />
+        <BlogLatest />
         <Asesorias title="¿Tienes una duda especifica? Agenda una asesoria" />
       </Layout>
     </>

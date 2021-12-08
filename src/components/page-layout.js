@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import BlogLatest from "./blog-latest";
 import Footer from "./footer-nav";
 import Header from "./header";
 import "./layout.css";
@@ -16,7 +17,7 @@ export default function Layout({ children, homepage, title, headerAction }) {
       </Helmet>
       <Header homepage={homepage} headerAction={headerAction} />
       <div className="page-content">{children}</div>
-      <div className="hero section section-gray">
+      <div className="hero section section-white">
         <div className="container">
           <div className="row">
             <div className="col-lg-10 mx-auto">

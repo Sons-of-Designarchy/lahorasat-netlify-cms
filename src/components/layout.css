@@ -652,3 +652,7 @@ ul {
   background: var(--purple)!important;
   box-shadow: none!important;
 }
+
+.flex-1 {
+  flex: 1;
+}

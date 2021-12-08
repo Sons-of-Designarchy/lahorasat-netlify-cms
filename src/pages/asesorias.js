@@ -1,5 +1,7 @@
 import * as React from "react";
 import Asesorias from "../components/asesorias";
+import BlogLatest from "../components/blog-latest";
+import Colaboraciones from "../components/colaboraciones";
 import Layout from "../components/page-layout";
 
 // markup
@@ -8,6 +10,8 @@ const AsesoriasPage = () => {
     <>
       <Layout title="Asesorias">
         <Asesorias />
+        <Colaboraciones />
+        <BlogLatest />
         {/* <div className="section section-purple section-big">
           <div className="container">
             <div className="row">
