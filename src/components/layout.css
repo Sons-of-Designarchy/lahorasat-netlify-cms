@@ -623,3 +623,16 @@ ul {
 .whats-floating img {
   width: 54px;
 }
+
+.carousel .control-arrow::before, .carousel .control-prev.control-arrow::before  {
+  border-left-color: var(--purple)!important;
+}
+
+.carousel .control-prev.control-arrow::before  {
+  border-right-color: var(--purple)!important;
+}
+
+.carousel .control-dots .dot {
+  background: var(--purple)!important;
+  box-shadow: none!important;
+}

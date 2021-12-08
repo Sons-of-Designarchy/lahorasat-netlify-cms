@@ -13,6 +13,7 @@ import Publico from "../img/cursos/curso-en-video/dirigido-publico.svg";
 import AcentoBlanco from "../img/acento-blanco.svg";
 import BuyCard from "../components/curso/buy-card";
 import Colaboraciones from "../components/colaboraciones";
+import Reviews from "../components/reviews";
 
 const cursoBullets = [
   "¿Qué es el SAT?",
@@ -157,6 +158,7 @@ const CursoEnVideoPage = () => {
           <h1>Aprende a sobrevivir al SATanás</h1>
           <img src={AcentoBlanco} width="50" className="mx-auto" />
         </div>
+        <Reviews />
         <AboutUs />
         <Colaboraciones />
         <Asesorias title="¿Tienes una duda especifica? Agenda una asesoria" />

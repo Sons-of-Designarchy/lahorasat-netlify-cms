@@ -16,7 +16,7 @@ const FechasTaller = () => {
                   Hacks del sat para Freelancers y RIF's
                 </p>
                 <h4>
-                  Sábado 11 de Dic. <br /> 12 a 2pm
+                  Sábado 11 de Dic. <br /> 10 a 1pm
                 </h4>
                 <div className="d-flex py-1">
                   <p className="label label-primary me-2">$799 pesos</p>
@@ -41,7 +41,7 @@ const FechasTaller = () => {
                   Hacks del sat para Freelancers y RIF's
                 </p>
                 <h4>
-                  Martes 14 de Dic. <br /> 7 a 9pm
+                  Martes 14 de Dic. <br /> 6 a 9pm
                 </h4>
                 <div className="d-flex py-1">
                   <p className="label label-primary me-2">$799 pesos</p>
