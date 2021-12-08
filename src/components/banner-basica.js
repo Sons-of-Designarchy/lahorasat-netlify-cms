@@ -7,7 +7,7 @@ const BannerCursos = () => {
     <>
       <div className="row no-gutters">
         <div className="col-md-6">
-          <p className="text-light uppercase mb-0 font-sm">1 HORA VIA ZOOM</p>
+          <p className="text-light text-uppercase mb-0 font-sm">1 HORA VIA ZOOM</p>
           <h1 className="mb-3 text-primary">
           Asesoría básica  
           </h1>

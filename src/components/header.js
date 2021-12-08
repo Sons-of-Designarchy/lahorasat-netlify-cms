@@ -2,6 +2,7 @@
 import React from "react";
 import logo from "../img/logo-header.svg";
 import logoDesktop from "../img/logo.svg";
+import Whats from "../img/whatsapp-icon.png";
 import { Link, navigate } from "gatsby";
 
 const headerStyles = {
@@ -13,7 +14,7 @@ const headerStyles = {
   zIndex: 1000000,
 };
 
-const Header = ({ homepage }) => {
+const Header = ({ homepage, headerAction }) => {
   const [scrollPosition, setScrollPosition] = React.useState(0);
 
   const [showMenu, setShowMenu] = React.useState(false);
@@ -87,11 +88,7 @@ const Header = ({ homepage }) => {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  activeClassName="active"
-                  href="/blog"
-                >
+                <a className="nav-link" activeClassName="active" href="/blog">
                   Blog
                 </a>
               </li>
@@ -102,19 +99,18 @@ const Header = ({ homepage }) => {
               </Link>
             </div>
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a
-                  href="https://wa.me/+525510722129"
-                  className="btn btn-menu"
-                  target="_blank"
-                >
-                  Contáctanos por Whatsapp
-                </a>
-              </li>
+              {headerAction && <li className="nav-item">{headerAction}</li>}
             </ul>
           </div>
         </div>
       </nav>
+      <a
+        href="https://wa.me/+525510722129"
+        target="_blank"
+        className="whats-floating"
+      >
+        <img src={Whats} />
+      </a>
     </header>
   );
 };

@@ -12,7 +12,7 @@ const FechasTaller = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-xl-4 mb-3">
               <div className="boxed-bullet p-4 text-left">
-                <p className="font-xs uppercase  mb-0">
+                <p className="font-xs text-uppercase  mb-0">
                   Hacks del sat para Freelancers y RIF's
                 </p>
                 <h4>
@@ -37,7 +37,7 @@ const FechasTaller = () => {
             </div>
             <div className="col-lg-6 col-xl-4 mb-3">
               <div className="boxed-bullet p-4 text-left">
-                <p className="font-xs uppercase  mb-0">
+                <p className="font-xs text-uppercase  mb-0">
                   Hacks del sat para Freelancers y RIF's
                 </p>
                 <h4>

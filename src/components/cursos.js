@@ -24,7 +24,7 @@ const Cursos = () => {
             <div className="col-lg-6 mb-3">
               <a
                 className="course-card rounded"
-                href="/curso-en-video"
+                href="/curso-basico"
               >
                 <img src={curso} className="img-fluid" />
                 <div className="course-content">

@@ -7,7 +7,7 @@ const BannerTaller = ({showImage}) => {
     <>
       <div className="row no-gutters">
         <div className="col-md-6">
-          <p className="text-light uppercase mb-0 font-sm">TALLER EN ZOOM - 17 Agosto - 6pm</p>
+          <p className="text-light text-uppercase mb-0 font-sm">TALLER EN ZOOM - 17 Agosto - 6pm</p>
           <h2 className="mb-2 text-primary">
             Hacks del SAT para Freelancers (2da fecha)
           </h2>
