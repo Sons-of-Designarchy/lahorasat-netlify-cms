@@ -47,7 +47,7 @@ const RegaloAsesoria = () => {
         <div className="section section-white">
           <div className="container">
             <h4 className="text-center mb-5">
-              Escoge la asesoría que tu amigo necesita
+              Escoge la asesoría ideal para tu amix.
             </h4>
             <div className="row">
               <div className="col-lg-6 mb-3">

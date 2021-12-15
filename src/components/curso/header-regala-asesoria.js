@@ -16,7 +16,7 @@ const HeaderRegaloAsesoria = () => {
               <span className="text-primary">Este curso es para ti</span>
             </h2>
             <p className="text-light">
-            Sé el santo claus de un amix, regalale una asesoría y sálvalo del satanás
+            Sé el santo claus de un amix, regálale una asesoría y sálvalo del satanás
             </p>
             
           </div>
