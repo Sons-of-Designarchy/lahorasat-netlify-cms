@@ -1,4 +1,4 @@
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import React from "react";
 import BannerAvanzada from "./banner-avanzada";
 import BannerBasica from "./banner-basica";
@@ -75,6 +75,7 @@ const Asesorias = ({ title }) => {
                 </div>
               </div>
             </div>
+            <p className="mt-3 text-center">También puedes <Link to="/regala-asesoria" className="text-underline">regalarle una asesoria</Link> a un amigo :)</p>
           </div>
         </div>
       </div>

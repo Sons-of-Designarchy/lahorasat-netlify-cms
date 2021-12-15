@@ -10,7 +10,23 @@ import BlogLatest from "../components/blog-latest";
 const IndexPage = () => {
   return (
     <>
-      <Layout homepage>
+      <Layout
+        homepage
+        headerAction={
+          <>
+            {" "}
+            <div style={{ marginRight: 8 }}>
+              <a
+                className="btn btn-menu btn-menu-purple"
+                href="https://lahorasat.podia.com/curso-en-video"
+                data-podia-embed="link"
+              >
+                Regala una asesoria!
+              </a>
+            </div>
+          </>
+        }
+      >
         <div className="section">
           <div className="container">
             <div className="row align-items-center">
