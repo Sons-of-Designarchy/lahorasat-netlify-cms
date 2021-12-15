@@ -47,7 +47,7 @@ const Header = ({ homepage, headerAction }) => {
             </a>
           </div>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler" 
             type="button"
             onClick={() => setShowMenu(!showMenu)}
           >

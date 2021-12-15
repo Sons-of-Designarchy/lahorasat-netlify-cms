@@ -19,20 +19,29 @@ const RegaloAsesoria = () => {
       <Layout title="Regala una asesoría" headerAction>
         <HeaderRegalaAsesoria />
         <div className="section section-green">
-          <div className="container  d-flex justify-content-center">
-            <img src={AcentoBlanco} width="50" className="mx-auto" />
+          <div className="container  d-flex d-justify-content-center">
+            <img
+              src={AcentoBlanco}
+              width="50"
+              className="mx-auto d-none d-md-block"
+            />
             <div>
               <div className="d-flex justify-content-center text-center">
                 <h2>El regalo perfecto para tu amix en aprietos</h2>
               </div>
               <div className="text-center">
-                <p className="mx-5">
-                  Le ayudamos a tu amigo en una asesoría 1-1 en videollamada con
-                  uno de nuestros expertos, en la hora y fecha que el pueda
+                <p className="mx-3">
+                  Le ayudamos a tu amix en una asesoría online 1-1 con una de
+                  nuestras expertas. Lo mejor de todo es que puede agendarla
+                  cuando quiera.
                 </p>
               </div>
             </div>
-            <img src={AcentoBlanco} width="50" className="mx-auto" />
+            <img
+              src={AcentoBlanco}
+              width="50"
+              className="mx-auto d-none d-md-block"
+            />
           </div>
         </div>
         <div className="section section-white">
