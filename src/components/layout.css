@@ -192,6 +192,11 @@ ul {
   width: 100%;
 }
 
+.btn-primary-border {
+  border: 1px solid var(--purple)!important;
+  box-shadow: 2px 2px 0 var(--purple);
+}
+
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,
