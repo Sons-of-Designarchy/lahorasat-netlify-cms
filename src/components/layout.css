@@ -1,7 +1,9 @@
 :root {
   --purple: #603dbd;
   --purple-light: #886ecd;
+  --off-purple: #E9E4F5;
   --green: #d5fc6d;
+  --green-flu: #D3FC66;
   --white: #ffffff;
 }
 
@@ -131,6 +133,9 @@ button {
 
 /* bootstrap overrides */
 
+.bold {
+  font-weight: 600 !important;
+}
 .text-primary {
   color: var(--green) !important;
 }
@@ -207,6 +212,14 @@ ul {
 .btn-outline-secondary:hover {
   background: var(--purple);
   color: var(--green);
+}
+
+.btn-green-primary,
+.btn-green-primary:hover,
+.btn-green-primary:active,
+.btn-green-primary:hover {
+  background: var(--green-flu);
+  color: var(--purple);
 }
 
 .btn-outline-secondary {
@@ -319,10 +332,18 @@ ul {
   color: #fff;
   background: var(--purple) url("../img/textura-purple.png");
 }
-
+.section-off-purple {
+  color: var(--purple) !important;
+  border: 1px solid #603dbd;
+  background: var(--off-purple);
+}
 .section-green {
   color: var(--purple) !important;
   background: var(--green) url("../img/textura-green.png");
+}
+.section-green-flu {
+  color: var(--purple) !important;
+  background: var(--green-flu) url("../img/textura-green.png");
 }
 
 .section-floating {
@@ -566,6 +587,22 @@ ul {
   background: #e9e4f5;
   border: 1px solid #603dbd;
   box-shadow: 5px 5px 0 #603dbd;
+  padding: 0.5rem;
+  font-size: 18px;
+  white-space: nowrap;
+  margin: 0.33rem;
+}
+.boxed-bullet-white {
+  background: var(--white);
+  border: 1px solid #603dbd;
+  padding: 0.5rem;
+  font-size: 18px;
+  white-space: nowrap;
+  margin: 0.33rem;
+}
+.boxed-bullet-green {
+  background: var(--green-flu);
+  border: 1px solid #603dbd;
   padding: 0.5rem;
   font-size: 18px;
   white-space: nowrap;
