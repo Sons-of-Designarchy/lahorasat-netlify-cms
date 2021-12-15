@@ -16,7 +16,7 @@ const RegaloAsesoria = () => {
 
   return (
     <>
-      <Layout title="feofkeok" headerAction>
+      <Layout title="Regala una asesoría" headerAction>
         <HeaderRegalaAsesoria />
         <div className="section section-green">
           <div className="container  d-flex justify-content-center">
@@ -186,7 +186,7 @@ const RegaloAsesoria = () => {
                       <a
                         className="btn btn-primary btn-primary-border btn-lg mb-3 me-3"
                         style={{ width: "100%" }}
-                        href="https://lahorasat.podia.com/coaching_session/e9d72c23-0ecd-4709-a46a-d44cf72c2663"
+                        href="https://lahorasat.podia.com/e9d72c23-0ecd-4709-a46a-d44cf72c2663"
                         data-podia-embed="link"
                       >
                         Regalar curso
@@ -345,9 +345,9 @@ const RegaloAsesoria = () => {
                     )}
                     <div className="d-flex flex-column flex-md-row">
                       <a
-                        className="btn btn-green-primary btn-lg mb-3 me-3"
+                        className="btn btn-green-primary btn-primary-border btn-lg mb-3 me-3"
                         style={{ width: "100%" }}
-                        href="https://lahorasat.podia.com/coaching_session/ac0e677e-8e2b-480c-8b94-72664d848e5c"
+                        href="https://lahorasat.podia.com/ac0e677e-8e2b-480c-8b94-72664d848e5c"
                         data-podia-embed="link"
                       >
                         Regalar curso
