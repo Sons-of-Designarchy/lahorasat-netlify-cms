@@ -36,7 +36,7 @@ const LandingCard = () => {
                     </div>
                     <div>  
                       <img  className="img-fluid" width="100"/>
-                      <p className="bold mb-0">Recien incorporados</p>
+                      <p className="bold mb-0">Recién incorporados</p>
                       <p className="font-xs mb-3">
                         Recién incorporadxs al SAT que no entienden nada al respecto.
                       </p>
@@ -95,7 +95,7 @@ const LandingCard = () => {
                     </div>
                     <div>  
                       <img  className="img-fluid" width="100"/>
-                      <p className="bold mb-0">Recien incorporados</p>
+                      <p className="bold mb-0">Recién incorporados</p>
                       <p className="font-xs mb-3">
                         Recién incorporadxs al SAT que no entienden nada al respecto.
                       </p>

@@ -93,7 +93,7 @@ const RegaloAsesoria = () => {
                         style={{ marginRight: "1rem" }}
                       />
                       <div>
-                        <p className="bold mb-0">Recien incorporados</p>
+                        <p className="bold mb-0">Recién incorporados</p>
                         <p className="font-xs mb-0">
                           Recién incorporadxs al SAT que no entienden nada al
                           respecto.
@@ -136,9 +136,7 @@ const RegaloAsesoria = () => {
                           width="12"
                           className="m-2 mx-3 mr-0"
                         />
-                        <p className="font-xs mb-0">
-                          Elegirá el mejor régimen para ti.
-                        </p>
+                        <p className="font-xs mb-0">Elegirá el régimen ideal</p>
                       </div>
                       <div className="d-flex align-items-center">
                         <img
