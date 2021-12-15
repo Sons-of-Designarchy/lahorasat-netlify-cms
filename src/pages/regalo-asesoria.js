@@ -92,7 +92,7 @@ const RegaloAsesoria = () => {
                       <a
                         className="btn btn-green-primary btn-lg mb-3 me-3"
                         style={{ width: "100%" }}
-                        href="https://lahorasat.podia.com/curso-en-video"
+                        href="https://lahorasat.podia.com/coaching_session/e9d72c23-0ecd-4709-a46a-d44cf72c2663"
                         data-podia-embed="link"
                       > 
                       Regalar curso
@@ -188,7 +188,7 @@ const RegaloAsesoria = () => {
                       
                     </div>
                     <div className="d-flex">  
-                      <img src={Freelancers} width="100" className="p-3" />
+                      <img src={Publico} width="100" className="p-3" />
                       <div>
                         <p className="bold mb-0">Personas con pendientes ante el SAT</p>
                         <p className="font-xs mb-3">
@@ -221,7 +221,7 @@ const RegaloAsesoria = () => {
                       <a
                         className="btn btn-green-primary btn-lg mb-3 me-3"
                         style={{ width: "100%" }}
-                        href="https://lahorasat.podia.com/curso-en-video"
+                        href="https://lahorasat.podia.com/coaching_session/ac0e677e-8e2b-480c-8b94-72664d848e5c"
                         data-podia-embed="link"
                       > 
                       Regalar curso
