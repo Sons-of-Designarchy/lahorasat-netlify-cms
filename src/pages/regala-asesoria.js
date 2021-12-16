@@ -30,9 +30,9 @@ const RegaloAsesoria = () => {
                 <h2>El regalo perfecto para tu amix en aprietos</h2>
               </div>
               <div className="text-center">
-                <p className="mx-3">
+                <p className="mx-3 font-lg">
                   Le ayudamos a tu amix en una asesoría online 1-1 con una de
-                  nuestras expertas. Lo mejor de todo es que puede agendarla
+                  nuestras expertas.<br /> Lo mejor de todo es que puede agendarla
                   cuando quiera.
                 </p>
               </div>

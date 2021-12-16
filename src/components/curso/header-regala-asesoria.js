@@ -9,18 +9,18 @@ const HeaderRegaloAsesoria = () => {
     <div className="section section-purple">
       <div className="container">
         <div className="row no-gutters align-items-center">
-          <div className="col-lg-5 p-lg-r">
+          <div className="col-lg-5">
             <img src={Adorno} className="mb-3 d-block" />
-            <h2 className="mb-3 text-light">
-              Santa Claus no existe pero SATanás sí.{" "}
-              <span className="text-primary">Este curso es para ti</span>
-            </h2>
-            <p className="text-light">
+            <h1 className="mb-3 text-light">
+              Santa Claus no existe {" "}
+              <span className="text-primary">pero el SATanás sí.</span>
+            </h1>
+            <p className="font-lg text-light">
             Sé el santo claus de un amix, regálale una asesoría y sálvalo del satanás
             </p>
-            
           </div>
-          <div className="col-lg-7 d-none d-lg-block">
+          <div className="col-lg-1"></div>
+          <div className="col-lg-6 d-none d-lg-block">
           <img
               src={ImagenLanding}
               className="img-fluid mb-4"
