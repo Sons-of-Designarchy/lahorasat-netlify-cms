@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../img/logo-header.svg";
 import logoDesktop from "../img/logo.svg";
 import Whats from "../img/whatsapp-icon.png";
-import { Link, navigate } from "gatsby";
+import { Link } from "gatsby";
 
 const headerStyles = {
   background: "#fff",
@@ -14,7 +14,7 @@ const headerStyles = {
   zIndex: 1000000,
 };
 
-const Header = ({ homepage, headerAction }) => {
+const Header = ({ headerAction }) => {
   const [scrollPosition, setScrollPosition] = React.useState(0);
 
   const [showMenu, setShowMenu] = React.useState(false);
@@ -47,7 +47,7 @@ const Header = ({ homepage, headerAction }) => {
             </a>
           </div>
           <button
-            className="navbar-toggler" 
+            className="navbar-toggler"
             type="button"
             onClick={() => setShowMenu(!showMenu)}
           >
@@ -65,18 +65,22 @@ const Header = ({ homepage, headerAction }) => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href={homepage ? "#cursos" : "/cursos"}>
-                  Cursos y talleres
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
+                <Link
+                  to="/cursos"
                   className="nav-link"
                   activeClassName="active"
-                  href={homepage ? "#asesorias" : "/asesorias"}
+                >
+                  Cursos y talleres
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  activeClassName="active"
+                  to="/asesorias"
                 >
                   Asesorias
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a

@@ -5,13 +5,13 @@ import Reviews from "../components/reviews";
 import AboutUs from "../components/about-us";
 import Colaboraciones from "../components/colaboraciones";
 import BlogLatest from "../components/blog-latest";
-import BulletsBasica from "../components/asesorias/bullets-basica";
 import Millenials from "../img/cursos/curso-en-video/dirigido-millenials.svg";
 import Freelancers from "../img/cursos/curso-en-video/dirigido-freelancers.svg";
 import Publico from "../img/cursos/curso-en-video/dirigido-publico.svg";
 import CheckBullet from "../components/check-bullet";
 import BuyBasica from "../components/asesorias/buy-basica";
 import AcentoBlanco from "../img/acento-blanco.svg";
+import BulletsAsesoria from "../components/asesorias/bullets-asesoria";
 
 const cursoBullets = [
   "Conocer tu situación fiscal",
@@ -28,7 +28,7 @@ const AsesoriaBasicaPage = () => {
         <div className="section section-white">
           <h2 className="text-center">Domina al SATanás desde el primer día</h2>
         </div>
-        <BulletsBasica bullets={cursoBullets} />
+        <BulletsAsesoria bullets={cursoBullets} title="Te ayudamos paso a paso a ..." />
         <div className="section section-white text-center">
           <div className="container">
             <h2 className="mb-3">Dirigido a:</h2>

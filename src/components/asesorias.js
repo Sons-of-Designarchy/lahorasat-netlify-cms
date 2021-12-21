@@ -6,7 +6,6 @@ import basica from "../img/cursos/asesoria.jpg";
 import practica from "../img/cursos/asesoria-practica-2.jpg";
 
 const Asesorias = ({ title }) => {
-  const [openModal, setOpenModal] = React.useState("");
 
   return (
     <>
@@ -20,9 +19,9 @@ const Asesorias = ({ title }) => {
           </p>
           <div className="row no-gutters">
             <div className="col-lg-6 mb-3">
-              <div
+              <Link
                 className="course-card rounded"
-                onClick={() => setOpenModal("basica")}
+                to="/asesoria-basica"
               >
                 <img src={basica} className="img-fluid" />
                 <div className="course-content">
@@ -43,14 +42,14 @@ const Asesorias = ({ title }) => {
                   </p>
                 </div>
                 <div className="p-3">
-                  <a className="btn btn-secondary btn-block">Ver detalles →</a>
+                  <a className="btn btn-secondary btn-lg btn-block">Ver detalles →</a>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="col-lg-6 mb-3">
-              <div
+              <Link
+                to="/asesoria-practica"
                 className="course-card rounded"
-                onClick={() => setOpenModal("practica")}
               >
                 <img src={practica} className="img-fluid" />
                 <div className="course-content">
@@ -71,54 +70,11 @@ const Asesorias = ({ title }) => {
                   </p>
                 </div>
                 <div className="p-3">
-                  <a className="btn btn-secondary btn-block">Ver detalles →</a>
+                  <a className="btn btn-secondary btn-lg btn-block">Ver detalles →</a>
                 </div>
-              </div>
+              </Link>
             </div>
             <p className="mt-3 text-center">También puedes <Link to="/regala-asesoria" className="text-underline">regalarle una asesoria</Link> a un amigo :)</p>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className={
-          openModal == "basica" ? "section-modal open" : "section-modal"
-        }
-      >
-        <div
-          className="section-modal-backdrop"
-          onClick={() => setOpenModal("")}
-        ></div>
-        <div className="section-modal-content">
-          <button
-            onClick={() => setOpenModal("")}
-            className="section-modal-close"
-          >
-            X
-          </button>
-          <div className="section-purple">
-            <BannerBasica />
-          </div>
-        </div>
-      </div>
-      <div
-        className={
-          openModal == "practica" ? "section-modal open" : "section-modal"
-        }
-      >
-        <div
-          className="section-modal-backdrop"
-          onClick={() => setOpenModal("")}
-        ></div>
-        <div className="section-modal-content">
-          <button
-            onClick={() => setOpenModal("")}
-            className="section-modal-close"
-          >
-            X
-          </button>
-          <div className="section-purple">
-            <BannerAvanzada />
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Chicas from "../../img/cursos/curso-en-video/foto-paquete.jpg";
 
-const BuyBasica = () => {
+const BuyPractica = () => {
   return (
     <>
       <div className="section section-off-purple">
@@ -17,15 +17,15 @@ const BuyBasica = () => {
             <div className="col-lg-6">
               <div className="px-lg-3">
                 <div className="boxed-bullet font-xxs text-uppercase d-inline-block mb-4">
-                  Sesión en Zoom de 1 hora
+                  Sesión en Zoom de 80 minutos
                 </div>
-                <h3>Asesoría básica</h3>
+                <h3>Asesoría practica</h3>
                 <p>
                   Costo:
                   {/* <span className="d-inline-block ml-2 mr-2 text-decoration-line-through opacity-50">
                       $499
                     </span>{" "} */}
-                  <span className="font-xl">$650</span>
+                  <span className="font-xl">$950</span>
                 </p>
                 <p className="font-xs">
                   * Pagas en línea de manera 100% y recibes acceso al calendario
@@ -35,16 +35,16 @@ const BuyBasica = () => {
                   <a
                     className="btn btn-primary btn-lg mb-3 me-3"
                     style={{ width: "100%" }}
-                    href="https://lahorasat.podia.com/asesoria-basica"
+                    href="https://lahorasat.podia.com/asesoria-practica"
                     data-podia-embed="link"
                   >
                     Agendar asesoria
                   </a>
                 </div>
                 <p className="font-xxs mt-3">
-                  Necesitas asesoría con el portal del SAT?{" "}
+                  ¿Aún no estás dado de alta?{" "}
                   <Link to="/asesoria-practica" className="text-underline">
-                    Agenda una asesoría practica →
+                    Cónoce nuestra asesoría basica →
                   </Link>
                 </p>
               </div>
@@ -56,4 +56,4 @@ const BuyBasica = () => {
   );
 };
 
-export default BuyBasica;
+export default BuyPractica;
