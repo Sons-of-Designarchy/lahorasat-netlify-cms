@@ -98,7 +98,7 @@ const Header = ({ homepage, headerAction }) => {
                 <img alt="La Hora Sat" width="90" src={logoDesktop} />
               </Link>
             </div>
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto d-none d-lg-block">
               {headerAction && <li className="nav-item">{headerAction}</li>}
             </ul>
           </div>
