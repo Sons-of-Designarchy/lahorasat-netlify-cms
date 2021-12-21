@@ -43,7 +43,6 @@ Esta información la sabrás en el momento en que te des de alta, pues se emite 
 Casos donde NO aplican las deducciones autorizadas:
 
 1. Si recibes ingresos únicamente por plataformas electrónicas como Amazon, Uber, MercaLibre, etc.
-
 2. Si eres asalariado.
 
 **¿Cuáles son las deducciones personales?**
@@ -71,9 +70,7 @@ Se presentan en la declaración anual y lo aplican personas físicas con cualqui
 **Excepciones.**
 
 1. Los RIF.
-
 2. Las Personas Morales.
-
 3. Próximamente los RESICO.
 
-Si es tu primera vez presentando estas deducciones te recomendamos asesorarte con tu contador/a para saber cómo aplicarlas de manera correcta.
+*Si es tu primera vez presentando estas deducciones te recomendamos asesorarte con tu contador/a para saber cómo aplicarlas de manera correcta.*
