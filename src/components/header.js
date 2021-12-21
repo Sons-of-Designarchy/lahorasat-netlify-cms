@@ -102,8 +102,13 @@ const Header = ({ headerAction }) => {
                 <img alt="La Hora Sat" width="90" src={logoDesktop} />
               </Link>
             </div>
-            <ul className="navbar-nav ms-auto d-none d-lg-block">
-              {headerAction && <li className="nav-item">{headerAction}</li>}
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <a className="nav-link" activeClassName="active" href="https://lahorasat.podia.com/login" target="_blank">
+                  Iniciar sesión
+                </a>
+              </li>
+              {headerAction && <li className="nav-item d-none d-lg-block">{headerAction}</li>}
             </ul>
           </div>
         </div>
