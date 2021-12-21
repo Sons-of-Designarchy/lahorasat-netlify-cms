@@ -7,6 +7,8 @@ description: Esta es una de las preguntas más frecuentes en las asesorías y
   podemos evadir al SAT.
 featuredpost: true
 featuredimage: /img/b-nopagar.png
+tags:
+  - dudas
 ---
 Quizá pienses que puedes ir por la vida **sin cumplir** con tus obligaciones fiscales.
 
