@@ -604,9 +604,15 @@ ul {
   box-shadow: 5px 5px 0 #603dbd;
   padding: 0.5rem;
   font-size: 18px;
-  white-space: nowrap;
   margin: 0.33rem;
 }
+
+@media (min-width: 769px) {
+  .boxed-bullet {
+    white-space: nowrap;
+  }
+}
+
 .boxed-bullet-white {
   background: var(--white);
   border: 1px solid #603dbd;

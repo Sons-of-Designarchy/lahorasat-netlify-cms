@@ -16,7 +16,7 @@ import BulletsAsesoria from "../components/asesorias/bullets-asesoria";
 const cursoBullets = [
   "Conocer tu situación fiscal",
   "Elegir el mejor regimen para ti",
-  "Encontrar los documents mas importantes en el portal",
+  "Encontrar los documentos mas importantes en el portal",
   "Hacer un plan para tener una mejor relación con el SAT",
 ];
 
