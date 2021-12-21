@@ -5,27 +5,12 @@ import Redes from "../img/redes.png";
 import Asesorias from "../components/asesorias";
 import Colaboraciones from "../components/colaboraciones";
 import BlogLatest from "../components/blog-latest";
-import { Link } from "gatsby";
 
 // markup
 const IndexPage = () => {
   return (
     <>
-      <Layout
-        headerAction={
-          <>
-            {" "}
-            <div style={{ marginRight: 8 }}>
-              <Link
-                className="btn btn-menu btn-menu-purple"
-                to="/regala-asesoria"
-              >
-                ¡Regala una asesoria!
-              </Link>
-            </div>
-          </>
-        }
-      >
+      <Layout>
         <div className="section">
           <div className="container">
             <div className="row align-items-center">
