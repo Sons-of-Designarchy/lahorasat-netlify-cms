@@ -7,6 +7,8 @@ description: El concepto que escuchamos en todos lados y que nos lo cobran en
   uno de los términos más usados y cómo funciona.
 featuredpost: true
 featuredimage: /img/b-iva.png
+tags:
+  - impuestos
 ---
 **El IVA (El Impuesto al Valor Agregado)**
 
