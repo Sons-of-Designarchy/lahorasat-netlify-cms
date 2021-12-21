@@ -45,8 +45,6 @@ Esto significa que si recibes este tipo de ingreso tendrás que pagar el ISR, y 
 
 Estos no pagan el  ISR pero **deben cumplir con ciertos requisitos para poder ser exentos**, además algunos en particular tienen **topes exentos**, es decir que si excedes cierto monto, sí tendrías que pagar el impuesto.
 
-*Letra chiquita:* 
-
 *Ahora ya lo sabes, no todos los ingresos pagan impuestos pero debes informarte para saber cuales son las regulaciones ante el SAT.*
 
 *Si tienes dudas, recuerda que puedes escribirnos para asesorarte.*
