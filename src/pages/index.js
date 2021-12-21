@@ -5,6 +5,7 @@ import Redes from "../img/redes.png";
 import Asesorias from "../components/asesorias";
 import Colaboraciones from "../components/colaboraciones";
 import BlogLatest from "../components/blog-latest";
+import { Link } from "gatsby";
 
 // markup
 const IndexPage = () => {
@@ -16,13 +17,12 @@ const IndexPage = () => {
           <>
             {" "}
             <div style={{ marginRight: 8 }}>
-              <a
+              <Link
                 className="btn btn-menu btn-menu-purple"
-                href="https://lahorasat.podia.com/curso-en-video"
-                data-podia-embed="link"
+                to="/regala-asesoria"
               >
-                Regala una asesoria!
-              </a>
+                ¡Regala una asesoria!
+              </Link>
             </div>
           </>
         }

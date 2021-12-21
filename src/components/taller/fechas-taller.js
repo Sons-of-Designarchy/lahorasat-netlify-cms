@@ -9,7 +9,10 @@ const FechasTaller = () => {
           <h3 className="mb-4 text-center">
             Elige una fecha para tomar el taller
           </h3>
-          <div className="row justify-content-center">
+          <div className="section">
+            <h5 className="text-center">Pronto más fechas...</h5>
+          </div>
+          {/* <div className="row justify-content-center">
             <div className="col-lg-6 col-xl-4 mb-3">
               <div className="boxed-bullet p-4 text-left">
                 <p className="font-xs text-uppercase  mb-0">
@@ -60,7 +63,7 @@ const FechasTaller = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="mt-5">
             <p className="text-secondary text-center">
               ¿Tienes dudas de cuál elegir o cómo pagar? {" "}
