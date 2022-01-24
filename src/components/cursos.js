@@ -32,7 +32,7 @@ const Cursos = () => {
                     <div className="label label-primary me-2">
                       CURSO EN VIDEO
                     </div>
-                    <div className="label label-primary">$299 MXN</div>
+                    <div className="label label-primary">$230 MXN</div>
                   </div>
                   <h4 className="mb-1 text-secondary">
                     Pasos básicos para sobrevivir al SATanas

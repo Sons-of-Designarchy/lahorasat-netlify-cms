@@ -42,6 +42,11 @@ const CursoEnVideoPage = () => {
           </div>
         }
       >
+        <div className="top-disclaimer">
+          <div className="container">
+            * Este curso no cuenta con la actualización de la Reforma Fiscal 2022, si lo compras ahora te daremos acceso a la nueva versión más adelante
+          </div>
+        </div>
         <HeaderCursoNew />
         <BulletsCursoNew bullets={cursoBullets} />
         <BuyCard />

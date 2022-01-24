@@ -714,3 +714,10 @@ ul {
 .flex-1 {
   flex: 1;
 }
+
+.top-disclaimer {
+  background: var(--green);
+  padding: 0.75rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
