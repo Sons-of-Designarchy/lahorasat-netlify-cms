@@ -25,7 +25,7 @@ const BuyPractica = () => {
                   {/* <span className="d-inline-block ml-2 mr-2 text-decoration-line-through opacity-50">
                       $499
                     </span>{" "} */}
-                  <span className="font-xl">$950</span>
+                  <span className="font-xl">$1099</span>
                 </p>
                 <p className="font-xs">
                   * Pagas en línea de manera 100% y recibes acceso al calendario

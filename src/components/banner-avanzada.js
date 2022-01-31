@@ -49,7 +49,7 @@ const BannerAvanzada = () => {
           </ul>
           <div className="mb-4">
             <h4>
-              Costo: <span className="text-primary">$950</span>
+              Costo: <span className="text-primary">$1099</span>
             </h4>
             <p className="font-sm  text-light">
               (Pagas en linea y recibes acceso al calendario para agendar la fecha y hora que gustes)

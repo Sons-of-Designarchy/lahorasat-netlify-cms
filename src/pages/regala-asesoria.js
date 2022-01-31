@@ -63,7 +63,7 @@ const RegaloAsesoria = () => {
                     </div>
                     <p style={{ marginRight: "1rem", marginBottom: "0.5rem" }}>
                       Costo:
-                      <span className="strong bold"> $650</span>
+                      <span className="strong bold"> $699</span>
                     </p>
                     <div className="d-flex mb-1 align-items-center">
                       <div
@@ -211,7 +211,7 @@ const RegaloAsesoria = () => {
                     </div>
                     <p style={{ marginRight: "1rem", marginBottom: "0.5rem" }}>
                       Costo:
-                      <span className="strong bold"> $950</span>
+                      <span className="strong bold"> $1099</span>
                     </p>
                     <div className="d-flex mb-1 align-items-center">
                       <div

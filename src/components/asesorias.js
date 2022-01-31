@@ -32,7 +32,7 @@ const Asesorias = ({ title }) => {
                     <div className="label label-primary me-2">
                       VIA ZOOM
                     </div>
-                    <div className="label label-primary">$650 MXN</div>
+                    <div className="label label-primary">$699 MXN</div>
                   </div>
                   <h2 className="mb-1 text-secondary">
                     Asesoría básica
@@ -60,7 +60,7 @@ const Asesorias = ({ title }) => {
                     <div className="label label-primary me-2">
                       VIA ZOOM
                     </div>
-                    <div className="label label-primary">$950 MXN</div>
+                    <div className="label label-primary">$1099 MXN</div>
                   </div>
                   <h2 className="mb-1 text-secondary">
                     Asesoría práctica <span className="font-lg d-block">(para personas fisicas)</span>

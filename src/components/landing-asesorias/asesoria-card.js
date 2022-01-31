@@ -21,7 +21,7 @@ const LandingCard = () => {
                       {/* <span className="d-inline-block ml-2 mr-2 text-decoration-line-through opacity-50">
                           $499
                         </span>{" "} */}
-                      <span className="font-xl">$650</span>
+                      <span className="font-xl">$699</span>
                     </p>
                     
                     <div className="boxed-bullet-white font-xxs text-uppercase d-inline-block mb-4">
@@ -80,7 +80,7 @@ const LandingCard = () => {
                       {/* <span className="d-inline-block ml-2 mr-2 text-decoration-line-through opacity-50">
                           $499
                         </span>{" "} */}
-                      <span className="font-xl">$650</span>
+                      <span className="font-xl">$699</span>
                     </p>
                     
                     <div className="boxed-bullet-white font-xxs text-uppercase d-inline-block mb-4">

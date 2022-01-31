@@ -46,7 +46,7 @@ const BannerCursos = () => {
           </ul>
           <div className="mb-4">
             <h4>
-              Costo: <span className="text-primary">$650</span>
+              Costo: <span className="text-primary">$699</span>
             </h4>
             <p className="font-sm  text-light">
               (Pagas en linea y recibes acceso al calendario para agendar la fecha y hora que gustes)
