@@ -5,6 +5,7 @@ import Twitter from "../img/twitter.svg";
 import Facebook from "../img/fb-logo.svg";
 import Youtube from "../img/youtube-icon.svg";
 import Linkedin from "../img/linkedin-icon.svg";
+import { Link } from "gatsby";
 
 const Footer = () => {
   return (
@@ -59,6 +60,11 @@ const Footer = () => {
         </a>
       </div>
       © 2021 La Hora Sat. Todos los derechos reservados.
+      <br /><br />
+      <Link
+        to="/terminos-y-condiciones" className="text-light font-xs text-underline">
+        Términos y condiciones
+      </Link>
     </footer>
   );
 };
