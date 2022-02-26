@@ -28,7 +28,7 @@ const RegaloAsesoria = () => {
             />
             <div>
               <div className="d-flex justify-content-center text-center">
-                <h2>El regalo perfecto para tu amix en aprietos</h2>
+                <h2>said se volvio loco</h2>
               </div>
               <div className="text-center">
                 <p className="mx-3 font-lg">
