@@ -288,6 +288,8 @@ ul {
   border-bottom-right-radius: 90px;
   margin-top: 32px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+  position: relative;
 }
 
 /* Shared css */

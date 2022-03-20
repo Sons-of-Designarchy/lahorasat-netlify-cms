@@ -61,10 +61,16 @@ const Footer = () => {
       </div>
       © 2021 La Hora Sat. Todos los derechos reservados.
       <br /><br />
-      <Link
-        to="/terminos-y-condiciones" className="text-light font-xs text-underline">
-        Términos y condiciones
-      </Link>
+      <div className="d-flex justify-content-center">
+        <Link
+          to="/terminos-y-condiciones" className="text-light font-xs text-underline p-3 d-block ">
+          Términos y Condiciones
+        </Link>
+        <Link
+          to="/aviso-de-privacidad" className="text-light font-xs text-underline p-3 d-block">
+          Aviso de Privacidad
+        </Link>
+      </div>
     </footer>
   );
 };
