@@ -17,11 +17,11 @@ const BuyDeclaracion = () => {
             <div className="col-lg-6">
               <div className="px-lg-3">
                 <div className="boxed-bullet font-xxs text-uppercase d-inline-block mb-4">
-                  Sesión en Zoom de 80 minutos
+                  Sesión en zoom de 80 minutos. 
                 </div>
-                <h2>Asesoría Delaracion Anual</h2>
+                <h2>Asesoría para Declaración Anual</h2>
                 <p>
-                  Costo:
+                  Precio:
                   {/* <span className="d-inline-block ml-2 mr-2 text-decoration-line-through opacity-50">
                       $499
                     </span>{" "} */}
@@ -38,7 +38,7 @@ const BuyDeclaracion = () => {
                     href="https://lahorasat.podia.com/asesoria-declaracion"
                     data-podia-embed="link"
                   >
-                    Agendar asesoria
+                    Agendar Asesoría
                   </a>
                 </div>
               </div>

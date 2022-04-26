@@ -90,7 +90,7 @@ const Asesorias = ({ title }) => {
                     <div className="label label-primary">$1199 MXN</div>
                   </div>
                   <h2 className="mb-1 text-secondary">
-                    Asesoría Declaración Anual
+                    Asesoría para Declaración Anual
                   </h2>
                   <p className="font-sm text-secondary-l">
                     Te ayudamos a presentar tu declaración anual desde tu computadora

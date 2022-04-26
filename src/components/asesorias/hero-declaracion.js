@@ -10,10 +10,9 @@ const HeroDeclaracion = () => {
         <div className="row no-gutters align-items-center">
           <div className="col-lg-5 p-lg-r">
             <img src={Adorno} className="mb-3 d-block" />
-            <h2 className="mb-3">¿Se te esta pasando tu declaracion anual?</h2>
+            <h2 className="mb-3">¿Aún no haces tu declaración anual?</h2>
             <p>
-              Te ayudamos a presentar tu declaración anual desde tu computadora,
-              te explicamos y guiamos para hacerlo de manera la manera correcta.
+              Nosotras te explicamos cómo hacerla y te enseñamos a presentarla paso a paso desde la comodidad de tu hogar. 
             </p>
             <div className="d-flex flex-column flex-md-row">
               <a
@@ -22,7 +21,7 @@ const HeroDeclaracion = () => {
                 href="https://lahorasat.podia.com/asesoria-declaracion"
                 data-podia-embed="link"
               >
-                Agendar asesoria
+                Agendar asesoría
               </a>
             </div>
           </div>

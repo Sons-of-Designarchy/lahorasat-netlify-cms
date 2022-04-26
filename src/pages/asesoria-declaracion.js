@@ -13,9 +13,10 @@ import BuyDeclaracion from "../components/asesorias/buy-declaracion";
 import HeroDeclaracion from "../components/asesorias/hero-declaracion";
 
 const cursoBullets = [
-  "Te enseñamos a 1:1 a crear tu declaración",
-  "Resolvemos tus dudas",
-  "Te preparas para el siguiente año",
+  "Resolvemos todas tus dudas",
+  "Ingresamos tu solicitud para recuperar el ISR a favor (según sea el caso)",
+  "Te enseñamos cómo lidiar con el SAT de forma sencilla",
+  "Aprendes cómo hacer la declaración para el próximo año",
 ];
 
 const AsesoriaPracticaPage = () => {
@@ -25,7 +26,7 @@ const AsesoriaPracticaPage = () => {
         <HeroDeclaracion />
         <BulletsAsesoria
           bullets={cursoBullets}
-          title="!Evita mutlas por no hacer tu declaracion anual!"
+          title="Evita que el SAT te multe por no hacer tu declaración."
         />
         <div className="section section-white text-center">
           <div className="container">
@@ -33,9 +34,9 @@ const AsesoriaPracticaPage = () => {
             <div className="row mt-3 justify-content-center">
               <div className="col-lg-4 mb-3">
                 <div className="card h-100">
-                  <h5>Asalariados</h5>
+                  <h5>Asalariadxs</h5>
                   <p className="font-xs mb-3">
-                    Reorganiza tu situacion con tu declaracion anual
+                    Que quieren obtener su ISR a favor.
                   </p>
                   <img src={Millenials} width="100" className="mx-auto" />
                 </div>
@@ -44,7 +45,7 @@ const AsesoriaPracticaPage = () => {
                 <div className="card h-100">
                   <h5>Freelancers</h5>
                   <p className="font-xs mb-3">
-                    Incorporados al SAT con dudas de como manejar su declaraciones anual.
+                    Que quieren aprender a hacer su declaración anual.
                   </p>
                   <img src={Freelancers} width="100" className="mx-auto" />
                 </div>
@@ -61,15 +62,15 @@ const AsesoriaPracticaPage = () => {
             <div className="row mx-auto">
               <div className="col-lg-6 mb-3">
                 <div className="section-off-purple p-3">
-                  <CheckBullet title="Acceso a tu portal del SAT." />
-                  <CheckBullet title="Tener activado tu buzón tributario." />
-                  <CheckBullet title="En ciertos casos, será necesaria la e.firma vigente." />
+                  <CheckBullet title="Acceso a tu portal del SAT" />
+                  <CheckBullet title="E-firma vigente (en ciertos casos)" />
+                  <CheckBullet title="Buzón tributario activado" />
                 </div>
               </div>
               <div className="col-lg-6 mb-3">
                 <div className="section-off-purple p-3">
-                  <CheckBullet title="Tomar la asesoría desde una computadora. " />
-                  <CheckBullet title="Relación del total de ingresos por nómina del 01 de enero al 31 de diciembre del 2021." />
+                  <CheckBullet title="Relación total de ingresos del 01 al 31 de dic. del 2021" />
+                  <CheckBullet title="Computadora y acceso a buen internet" />
                 </div>
               </div>
             </div>
