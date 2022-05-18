@@ -21,7 +21,7 @@ const Cursos = () => {
 😉
           </p>
           <div className="row no-gutters">
-            <div className="col-lg-6 mb-3">
+            <div className="col-lg-4 mb-3">
               <a
                 className="course-card rounded"
                 href="/curso-basico"
@@ -47,7 +47,36 @@ const Cursos = () => {
                 </div>
               </a>
             </div>
-            <div className="col-lg-6 mb-3">
+
+            <div className="col-lg-4 mb-3">
+              <a
+                className="course-card rounded"
+                href="/taller-basico"
+              >
+                <img src={taller} className="img-fluid" />
+                <div className="course-content">
+                  <div className="d-flex mb-2">
+                    <div className="label label-primary me-2">
+                      TALLER EN ZOOM
+                    </div>
+                    <div className="label label-primary me-2">$350 MXN</div>
+                    {/* <div className="label label-primary">PRÓXIMAMENTE</div> */}
+                  </div>
+                  <h4 className="mb-1 text-secondary">
+                    Taller online sobre el SAT
+                  </h4>
+                  <p className="font-sm text-secondary-l">
+                  A diferencia de nuestro curso en video, este curso es en vivo, por lo que aquí podrás resolver esas dudas sobre el SAT que no te dejan dormir tranquilx. 
+                  </p>
+                </div>
+                <div className="p-3">
+                  <a className="btn btn-secondary btn-block">Ver fechas disponibles →</a>
+                </div>
+              </a>
+            </div>
+
+
+            <div className="col-lg-4 mb-3">
               <a
                 className="course-card rounded"
                 href="/taller-hacks-del-sat"
@@ -68,7 +97,7 @@ const Cursos = () => {
                   </p>
                 </div>
                 <div className="p-3">
-                  <a className="btn btn-secondary btn-block">Ver fechas disponibles →</a>
+                  <a className="btn btn-secondary btn-block disabled">Próximamente →</a>
                 </div>
               </a>
             </div>

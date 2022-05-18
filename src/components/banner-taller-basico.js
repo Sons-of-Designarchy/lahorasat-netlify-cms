@@ -7,7 +7,7 @@ const BannerTallerBasico = () => {
     <>
       <div className="row no-gutters">
         <div className="col-md-6">
-          <p className="text-light text-uppercase mb-0 font-sm">TALLER EN ZOOM - 2 OCT - 11AM A 12:30PM</p>
+          <p className="text-light text-uppercase mb-0 font-sm">TALLER EN ZOOM - 16 Junio - 6:30PM A 8:00PM</p>
           <h1 className="mb-3 text-primary">Taller online sobre el SAT</h1>
           <img
             src={prev}
@@ -73,7 +73,7 @@ const BannerTallerBasico = () => {
             <a
               className="btn btn-primary btn-lg mb-3 me-3"
               style={{ width: "100%" }}
-              href="https://lahorasat.podia.com/taller-online-para-sobrevivir-al-sat"
+              href="https://lahorasat.podia.com/cc1cc02c-f9d7-49e5-a6d5-39ef90351bdf"
               data-podia-embed="link"
             >
               Inscribirme en linea
