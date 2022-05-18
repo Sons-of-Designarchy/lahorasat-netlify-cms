@@ -9,6 +9,7 @@ import tipo from "../img/colabs/tipo-y-asi.png";
 import animal from "../img/colabs/animal.png";
 import legalmente from "../img/colabs/legalmente-creativo.png";
 import chicmag from "../img/colabs/chic.png";
+import adn40 from "../img/colabs/adn.png";
 
 const Colaboraciones = () => {
   return (
@@ -98,6 +99,15 @@ const Colaboraciones = () => {
                 target="_blank"
               >
                 <img src={chicmag} />
+              </a>
+            </div>
+            <div className="col-lg-3 col-6">
+              <a
+                className="p-2 p-lg-4 d-block"
+                href="https://www.adn40.mx/finanzas/sat-instagram-facil-deps-especial"
+                target="_blank"
+              >
+                <img src={adn40} />
               </a>
             </div>
           </div>
