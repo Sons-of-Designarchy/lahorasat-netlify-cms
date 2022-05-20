@@ -59,7 +59,7 @@ const Cursos = () => {
                     <div className="label label-primary me-2">
                       TALLER EN ZOOM
                     </div>
-                    <div className="label label-primary me-2">$350 MXN</div>
+                    <div className="label label-primary me-2">$399 MXN</div>
                     {/* <div className="label label-primary">PRÓXIMAMENTE</div> */}
                   </div>
                   <h4 className="mb-1 text-secondary">
