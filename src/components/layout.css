@@ -449,6 +449,10 @@ ul {
   flex-direction: column;
   height: 100%;
 }
+
+.course-card-green {
+  background: var(--green);
+}
 .course-content {
   flex: 1;
   padding: 1rem 1rem 0rem;
@@ -465,13 +469,15 @@ ul {
 }
 
 .label {
+  background: #fff;
   padding: 0.25rem 0.75rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   border-radius: 16px;
   font-weight: 600;
+  border: 1px solid var(--purple);
 }
 
 .label-primary {

@@ -1,7 +1,7 @@
 // import { Link } from "gatsby"
 import React from "react";
-import curso from "../img/cursos/curso-en-video/foto-home.jpg";
-import taller from "../img/cursos/taller-hacks-cover.jpg";
+import curso from "../img/cursos/curso-thumbnail-video.jpg";
+import taller from "../img/cursos/curso-thumbnail-taller.jpg";
 import BannerCursos from "./banner-cursos";
 import BannerTaller from "./banner-taller";
 import BannerTallerBasico from "./banner-taller-basico";
@@ -13,93 +13,95 @@ const Cursos = () => {
     <>
       <div className="section section-purple">
         <div className="container">
-          <h3 className="text-center text-primary">
-            Nuestros cursos y talleres
-          </h3>
+          <h1 className="text-center text-primary">
+            Aprende lo básico sobre el SAT.
+          </h1>
           <p className="text-light text-center mb-5">
-          Aquí están las respuestas del universo. Si tienes dudas de qué curso elegir, <a href="https://wa.me/+525510722129" className="text-primary">mándanos un Whatsapp </a> 
-😉
+            Elige el formato que más se adapte a tus necesidades 
           </p>
-          <div className="row no-gutters">
-            <div className="col-lg-4 mb-3">
-              <a
-                className="course-card rounded"
-                href="/curso-basico"
-              >
-                <img src={curso} className="img-fluid" />
-                <div className="course-content">
-                  <div className="d-flex mb-2">
-                    <div className="label label-primary me-2">
-                      CURSO EN VIDEO
+          <div className="row">
+            <div className="col-lg-10 mx-auto">
+              <div className="row no-gutters">
+                <div className="col-lg-6 mb-3">
+                  <a
+                    className="course-card rounded"
+                    href="/curso-basico"
+                  >
+                    <img src={curso} className="img-fluid" />
+                    <div className="course-content">
+                      <div className="d-flex mb-2">
+                        <div className="label label-primary me-2">
+                          CURSO EN VIDEO
+                        </div>
+                        <div className="label label-primary">$230 MXN</div>
+                      </div>
+                      <h4 className="mb-1 text-secondary">
+                        Curso Básico en Video
+                      </h4>
+                      <p className="font-sm text-secondary-l">
+                        Aprende cómo incorporarte ante el SAT, primeros pasos para
+                        la vida fiscal y super tips para llevar tu contabilidad.
+                      </p>
                     </div>
-                    <div className="label label-primary">$230 MXN</div>
-                  </div>
-                  <h4 className="mb-1 text-secondary">
-                    Pasos básicos para sobrevivir al SATanas
-                  </h4>
-                  <p className="font-sm text-secondary-l">
-                    Aprende cómo incorporarte ante el SAT, primeros pasos para
-                    la vida fiscal y super tips para llevar tu contabilidad.
-                  </p>
-                </div>
-                <div className="p-3">
-                  <a className="btn btn-secondary btn-block">Ver detalles →</a>
-                </div>
-              </a>
-            </div>
-
-            <div className="col-lg-4 mb-3">
-              <a
-                className="course-card rounded"
-                href="/taller-basico"
-              >
-                <img src={taller} className="img-fluid" />
-                <div className="course-content">
-                  <div className="d-flex mb-2">
-                    <div className="label label-primary me-2">
-                      TALLER EN ZOOM
+                    <div className="p-3">
+                      <a className="btn btn-secondary btn-block">Ver detalles →</a>
                     </div>
-                    <div className="label label-primary me-2">$399 MXN</div>
-                    {/* <div className="label label-primary">PRÓXIMAMENTE</div> */}
-                  </div>
-                  <h4 className="mb-1 text-secondary">
-                    Taller online sobre el SAT
-                  </h4>
-                  <p className="font-sm text-secondary-l">
-                  A diferencia de nuestro curso en video, este curso es en vivo, por lo que aquí podrás resolver esas dudas sobre el SAT que no te dejan dormir tranquilx. 
-                  </p>
+                  </a>
                 </div>
-                <div className="p-3">
-                  <a className="btn btn-secondary btn-block">Ver fechas disponibles →</a>
-                </div>
-              </a>
-            </div>
 
-
-            <div className="col-lg-4 mb-3">
-              <a
-                className="course-card rounded"
-                href="/taller-hacks-del-sat"
-              >
-                <img src={taller} className="img-fluid" />
-                <div className="course-content">
-                  <div className="d-flex mb-2">
-                    <div className="label label-primary me-2">
-                      TALLER EN ZOOM
+                <div className="col-lg-6 mb-3">
+                  <a
+                    className="course-card rounded course-card-green"
+                    href="/taller-basico"
+                  >
+                    <img src={taller} className="img-fluid" />
+                    <div className="course-content">
+                      <div className="d-flex mb-2">
+                        <div className="label me-2">
+                          TALLER EN ZOOM
+                        </div>
+                        <div className="label me-2">$399 MXN</div>
+                        {/* <div className="label label-primary">PRÓXIMAMENTE</div> */}
+                      </div>
+                      <h4 className="mb-1 text-secondary">
+                        Taller online Básico
+                      </h4>
+                      <p className="font-sm text-secondary-l">
+                        Todo lo del curso en video además de poder resolver todas las dudas que tengas en ese monento.
+                      </p>
                     </div>
-                    <div className="label label-primary me-2">$799 MXN</div>
-                  </div>
-                  <h4 className="mb-1 text-secondary">
-                    Hacks del sat para Freelancers y RIF's
-                  </h4>
-                  <p className="font-sm text-secondary-l">
-                    Aquí aprenderás de forma práctica cómo navegar a través del portal del SAT, cómo declarar, facturar y dónde encontrar tus documentos fiscales más importantes. 
-                  </p>
+                    <div className="p-3">
+                      <a className="btn btn-secondary btn-block">Ver fechas disponibles →</a>
+                    </div>
+                  </a>
                 </div>
-                <div className="p-3">
-                  <a className="btn btn-secondary btn-block disabled">Próximamente →</a>
-                </div>
-              </a>
+    {/* 
+                <div className="col-lg-4 mb-3">
+                  <a
+                    className="course-card rounded"
+                    href="/taller-hacks-del-sat"
+                  >
+                    <img src={taller} className="img-fluid" />
+                    <div className="course-content">
+                      <div className="d-flex mb-2">
+                        <div className="label label-primary me-2">
+                          TALLER EN ZOOM
+                        </div>
+                        <div className="label label-primary me-2">$799 MXN</div>
+                      </div>
+                      <h4 className="mb-1 text-secondary">
+                        Hacks del sat para Freelancers y RIF's
+                      </h4>
+                      <p className="font-sm text-secondary-l">
+                        Aquí aprenderás de forma práctica cómo navegar a través del portal del SAT, cómo declarar, facturar y dónde encontrar tus documentos fiscales más importantes. 
+                      </p>
+                    </div>
+                    <div className="p-3">
+                      <a className="btn btn-secondary btn-block disabled">Próximamente →</a>
+                    </div>
+                  </a>
+                </div> */}
+              </div>
             </div>
           </div>
         </div>
