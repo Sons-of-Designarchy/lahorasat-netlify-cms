@@ -17,7 +17,7 @@ const BulletsCursoNew = ({ bullets }) => {
                 ))}
               </div>
               <div className="d-flex justify-content-center">
-                <div className="boxed-bullet mb-3">* En 7 lecciones rápidas y sencillas de entender </div>
+                <div className="boxed-bullet mb-3">* En 8 lecciones rápidas y sencillas de entender </div>
               </div>
             </div>
           </div>

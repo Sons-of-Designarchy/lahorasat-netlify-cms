@@ -24,21 +24,17 @@ const BuyCard = () => {
                   {/* <span className="d-inline-block ml-2 mr-2 text-decoration-line-through opacity-50">
                       $499
                     </span>{" "} */}
-                  <span className="font-xl">$230</span>
+                  <span className="font-xl">$349</span>
                 </p>
                 <b className="text-uppercase mb-1 font-xxs">Este curso incluye:</b>
                 <ul className="font-xs">
-                  <li>7 lecciones en video profesional super faciles de entender</li>
-                  <li>Acceso al grupo de FB de inscritos al curso</li>
+                  <li>8 lecciones en video profesional super faciles de entender</li>
                   <li>Acceso para siempre</li>
                   {/* <li>E-book con la información del curso</li>
                   <li>E-book “Lista de deducciones según mi regimen”.</li> */}
                 </ul>
                 <p className="font-xxs">
-                  * Pagas en línea de manera 100% segura o contactanos por whats y te ayudamos
-                </p>
-                <p>
-                * Este curso no cuenta con la actualización de la Reforma Fiscal 2022, si lo compras ahora te daremos acceso a la nueva versión más adelante
+                  * Pagas en línea de manera 100% segura o contáctanos por Whatsapp y te ayudamos
                 </p>
                 <div className="d-flex flex-column flex-md-row">
                   <a
