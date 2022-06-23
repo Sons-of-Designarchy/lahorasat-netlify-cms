@@ -71,7 +71,7 @@ const Cursos = () => {
                       </p>
                     </div>
                     <div className="p-3">
-                      <a className="btn btn-secondary btn-block">Ver fechas disponibles →</a>
+                      <a className="btn btn-secondary btn-block disabled">Pronto nueva fecha :)</a>
                     </div>
                   </a>
                 </div>
