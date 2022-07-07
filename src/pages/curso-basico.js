@@ -90,7 +90,7 @@ const CursoEnVideoPage = () => {
                 <ul className="font-sm">
                   <li>¿Qué son los regímenes?</li>
                   <li>¿Cómo elegir mi régimen?</li>
-                  <li>Impuestos y declaraciones</li>
+                  <li>¿Qué son los impuestos?</li>
                 </ul>
               </div>
               <div className="col-lg-4">

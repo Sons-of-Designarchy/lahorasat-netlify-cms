@@ -16,7 +16,7 @@ const BuyCard = () => {
             <div className="col-lg-6">
               <div className="px-lg-3">
                 <div className="boxed-bullet font-xxs text-uppercase d-inline-block mb-4">
-                  Curso en video - 30min
+                  Curso en video - 33min
                 </div>
                 <h3>Pasos básicos para sobrevivir al SATanás</h3>
                 <p>
