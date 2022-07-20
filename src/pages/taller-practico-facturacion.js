@@ -34,7 +34,7 @@ const CursoEnVideoPage = () => {
           <div style={{ marginRight: 8 }}>
             <a
               className="btn btn-menu btn-menu-purple"
-              href="https://lahorasat.podia.com/curso-en-video"
+              href="https://lahorasat.podia.com/4d962167-2a55-4d9c-9c1d-abbff22bf249"
               data-podia-embed="link"
             >
               Inscríbete

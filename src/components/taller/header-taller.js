@@ -32,7 +32,7 @@ const HeaderTaller = () => {
               <a
                 className="btn btn-primary mb-3 me-3"
                 style={{ width: "100%" }}
-                href="https://lahorasat.podia.com/adf1aa87-56a0-4f22-a5d9-572f805e50cb"
+                href="https://lahorasat.podia.com/4d962167-2a55-4d9c-9c1d-abbff22bf249"
                 data-podia-embed="link"
               >
                 Inscríbete

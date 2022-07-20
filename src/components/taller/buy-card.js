@@ -44,7 +44,7 @@ const BuyCard = () => {
                   <a
                     className="btn btn-secondary btn-lg mb-3 me-3"
                     style={{ width: "100%" }}
-                    href="https://lahorasat.podia.com/curso-en-video"
+                    href="https://lahorasat.podia.com/4d962167-2a55-4d9c-9c1d-abbff22bf249"
                     data-podia-embed="link"
                   >
                     Comprar
