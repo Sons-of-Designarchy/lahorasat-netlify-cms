@@ -8,9 +8,12 @@ const HeaderTaller = () => {
       <div className="container">
         <div className="row no-gutters align-items-center">
           <div className="col-lg-6 p-lg-r">
-            <p className="font-xs text-uppercase text-primary">Taller: Hacks del Sat para Freelancers y Rifs</p>
+            <p className="font-xs text-uppercase text-primary">
+              Taller: Aprende a facturar en la versión 4.0
+            </p>
             <h4>
-              ¿Tus clientes te piden factura y no tienes ni idea de cómo sacarla? {" "}
+              ¿Tus clientes te piden factura y no tienes ni idea de cómo
+              sacarla?{" "}
               <span className="text-primary">
                 Entonces este taller es para ti 😉
               </span>
@@ -21,25 +24,18 @@ const HeaderTaller = () => {
               style={{ borderRadius: 24, width: "100%" }}
             />
             <p className="text-light font-sm">
-              Aquí aprenderás de forma práctica cómo navegar a través del portal del SAT, cómo declarar, facturar y dónde encontrar tus documentos fiscales más importantes.
+              Aquí aprenderás de forma práctica cómo facturar en el portal del SAT en la versión 4.0, navegar a través del portal
+              del SAT, cómo declarar, y dónde encontrar tus documentos fiscales más importantes.
             </p>
-            <div className="mt-2 mb-4">
-            </div>
+            <div className="mt-2 mb-4"></div>
             <div className="d-flex flex-column flex-md-row">
               <a
-                className="btn btn-primary btn-lg mb-3 me-3"
+                className="btn btn-primary mb-3 me-3"
                 style={{ width: "100%" }}
-                href="#horarios"
+                href="https://lahorasat.podia.com/adf1aa87-56a0-4f22-a5d9-572f805e50cb"
+                data-podia-embed="link"
               >
-                Ver fechas disponibles
-              </a>
-              <a
-                className="btn btn-outline-primary btn-lg mb-3"
-                style={{ width: "100%" }}
-                target="_blank"
-                href="https://wa.me/+525510722129"
-              >
-                Agendar por Whatsapp
+                Inscríbete
               </a>
             </div>
           </div>
