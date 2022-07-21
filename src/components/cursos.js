@@ -78,7 +78,7 @@ const Cursos = () => {
                 <div className="col-lg-6 mb-3">
                   <a
                     className="course-card rounded course-card-green"
-                    // href="/taller-practico-facturacion"
+                    href="/taller-practico-facturacion"
                   >
                     <img src={taller} className="img-fluid" />
                     <div className="course-content">
@@ -94,7 +94,7 @@ const Cursos = () => {
                       </p>
                     </div>
                     <div className="p-3">
-                      <a className="btn btn-secondary btn-block disabled">
+                      <a className="btn btn-secondary btn-block">
                         Ver detalles →
                       </a>
                     </div>
