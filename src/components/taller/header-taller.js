@@ -25,7 +25,7 @@ const HeaderTaller = () => {
             />
             <p className="text-light font-sm">
               Aquí aprenderás de forma práctica cómo facturar en el portal del SAT en la versión 4.0, navegar a través del portal
-              del SAT, cómo declarar, y dónde encontrar tus documentos fiscales más importantes.
+              del SAT.
             </p>
             <div className="mt-2 mb-4"></div>
             <div className="d-flex flex-column flex-md-row">

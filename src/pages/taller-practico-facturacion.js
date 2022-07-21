@@ -90,8 +90,7 @@ const CursoEnVideoPage = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-3 p-3">
                   <div className="card">
-                    Haber tomado el curso básico en video. (Puedes comprarlo en
-                    el link de la bio)
+                    Haber tomado el curso básico en video. (Lo encuentras en la sección de cursos)
                   </div>
                 </div>
                 <div className="col-lg-3 p-3">
