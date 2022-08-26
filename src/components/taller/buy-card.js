@@ -16,27 +16,26 @@ const BuyCard = () => {
             <div className="col-lg-6">
               <div className="px-lg-3">
                 <div className="boxed-bullet font-xxs text-uppercase d-inline-block mb-4">
-                  TALLER EN ZOOM
+                  Curso en video (grabación de zoom)
                 </div>
                 <h3>Curso para aprender a facturar en el portal del SAT en la versión 4.0</h3>
 
                 <p>
-                  <span className="font-lg">Martes 02 de agosto de 6:30 a 8:30pm</span>
+                  <span className="font-lg">¡Acceso de por vida! Lo puedes ver las veces que quieras.</span>
                 </p>
                 <p>
                   Costo:
                   {/* <span className="d-inline-block ml-2 mr-2 text-decoration-line-through opacity-50">
                       $499
                     </span>{" "} */}
-                  <span className="font-xl">$799</span>
+                  <span className="font-xl">$549</span>
                 </p>
-                {/* <b className="text-uppercase mb-1 font-xxs">Este curso incluye:</b>
+                <b className="text-uppercase mb-1 font-xxs">Este curso incluye:</b>
                 <ul className="font-xs">
-                  <li>8 lecciones en video profesional super faciles de entender</li>
-                  <li>Acceso para siempre</li>
-                  {/* <li>E-book con la información del curso</li>
-                  <li>E-book “Lista de deducciones según mi regimen”.</li>
-                </ul> */}
+                  <li>2 horas y media de curso</li>
+                  <li>2 materiales extra de apoyo</li>
+                  <li>Acceso ilimitado</li>
+                </ul>
                 <p className="font-xxs">
                   * Pagas en línea de manera 100% segura o contáctanos por Whatsapp y te ayudamos
                 </p>
@@ -44,7 +43,7 @@ const BuyCard = () => {
                   <a
                     className="btn btn-secondary btn-lg mb-3 me-3"
                     style={{ width: "100%" }}
-                    href="https://lahorasat.podia.com/4d962167-2a55-4d9c-9c1d-abbff22bf249"
+                    href="https://lahorasat.podia.com/curso-en-video-aprende-a-facturar-en-el-portal-del-sat-version-4-0"
                     data-podia-embed="link"
                   >
                     Comprar

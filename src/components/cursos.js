@@ -83,8 +83,8 @@ const Cursos = () => {
                     <img src={taller} className="img-fluid" />
                     <div className="course-content">
                       <div className="d-flex mb-2">
-                        <div className="label me-2">TALLER EN ZOOM</div>
-                        <div className="label me-2">$799 MXN</div>
+                        <div className="label me-2">CURSO EN VIDEO</div>
+                        <div className="label me-2">$549 MXN</div>
                       </div>
                       <h4 className="mb-1 text-secondary">
                         Aprende a facturar en la versión 4.0

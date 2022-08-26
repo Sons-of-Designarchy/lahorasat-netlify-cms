@@ -29,15 +29,15 @@ const CursoEnVideoPage = () => {
   return (
     <>
       <Layout
-        title="Taller: Aprende a facturar en la versión 4.0"
+        title="Curso en video: Aprende a facturar en el portal del SAT Versión 4.0 (grabación de zoom)"
         headerAction={
           <div style={{ marginRight: 8 }}>
             <a
               className="btn btn-menu btn-menu-purple"
-              href="https://lahorasat.podia.com/4d962167-2a55-4d9c-9c1d-abbff22bf249"
+              href="https://lahorasat.podia.com/curso-en-video-aprende-a-facturar-en-el-portal-del-sat-version-4-0"
               data-podia-embed="link"
             >
-              Inscríbete
+              Comprar curso
             </a>
           </div>
         }
@@ -90,7 +90,7 @@ const CursoEnVideoPage = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-3 p-3">
                   <div className="card">
-                    Haber tomado el curso básico en video. (Lo encuentras en la sección de cursos)
+                    Tener conocimientos básicos del SAT
                   </div>
                 </div>
                 <div className="col-lg-3 p-3">

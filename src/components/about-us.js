@@ -27,7 +27,7 @@ const AboutUs = () => {
                 para millennials (o para quien lo necesite) 🤓💸
               </p>
               <p className="text-light">
-                Tenemos año y medio en el mercado y en ese tiempo{" "}
+                Tenemos dos años en el mercado… y en ese tiempo{" "}
                 <strong>
                   hemos logrado ayudar a más de 50 mil personas a aprender de
                   forma sencilla
@@ -35,9 +35,7 @@ const AboutUs = () => {
                 cómo funciona el SAT.
               </p>
               <p className="text-light">
-                Nuestro curso ha sido todo un éxito, se ha vendido en todo
-                México, en USA y hasta en España. (respaldando a los mexas a la
-                distancia 💪🏻)
+                Nuestros servicios se han vendido en todo México, en USA y hasta en Europa (respaldando a los mexas a la distancia 💪🏼).
               </p>
             </div>
             <div className="col-lg-6">
