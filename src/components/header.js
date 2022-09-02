@@ -113,13 +113,6 @@ const Header = ({ headerAction }) => {
           </div>
         </div>
       </nav>
-      <a
-        href="https://wa.me/+525510722129"
-        target="_blank"
-        className="whats-floating"
-      >
-        <img src={Whats} />
-      </a>
     </header>
   );
 };
