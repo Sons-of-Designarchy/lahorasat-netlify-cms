@@ -1,6 +1,7 @@
 // import { Link } from "gatsby"
 import React from "react";
 import prev from "../img/cursos/asesoria.jpg";
+import { whatsappNumber } from "./header";
 
 const BannerCursos = () => {
   return (
@@ -65,7 +66,7 @@ const BannerCursos = () => {
               className="btn btn-outline-primary btn-lg mb-3"
               style={{ width: "100%" }}
               target="_blank"
-              href="https://wa.me/+525510722129"
+              href={'https://wa.me/' + whatsappNumber}
             >
               Agendar por Whatsapp
             </a>

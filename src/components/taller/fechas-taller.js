@@ -1,5 +1,6 @@
 // import { Link } from "gatsby"
 import React from "react";
+import { whatsappNumber } from "../header";
 
 const FechasTaller = () => {
   return (
@@ -65,7 +66,7 @@ const FechasTaller = () => {
             <p className="text-secondary text-center">
               ¿Tienes dudas de cuál elegir o cómo pagar? {" "}
               <a
-                href="https://wa.me/+525510722129"
+                href={'https://wa.me/' + whatsappNumber}
                 className="text-secondary text-underline"
               >
                 mándanos un Whatsapp

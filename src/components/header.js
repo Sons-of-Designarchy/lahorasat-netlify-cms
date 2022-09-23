@@ -5,6 +5,8 @@ import logoDesktop from "../img/logo.svg";
 import Whats from "../img/whatsapp-icon.png";
 import { Link } from "gatsby";
 
+export const whatsappNumber = '+523123200740';
+
 const headerStyles = {
   background: "#fff",
   borderBottom: "1px solid #ccc",
@@ -113,6 +115,13 @@ const Header = ({ headerAction }) => {
           </div>
         </div>
       </nav>
+      <a
+        href={'https://wa.me/' + whatsappNumber}
+        target="_blank"
+        className="whats-floating"
+      >
+        <img src={Whats} />
+      </a>
     </header>
   );
 };

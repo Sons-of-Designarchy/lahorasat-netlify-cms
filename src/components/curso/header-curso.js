@@ -1,6 +1,7 @@
 // import { Link } from "gatsby"
 import React from "react";
 import coverPhoto from "../../img/cursos/curso-en-video/cover-photo.png";
+import { whatsappNumber } from "../header";
 
 const HeaderCurso = () => {
   const [openModal, setOpenModal] = React.useState(false);
@@ -46,7 +47,7 @@ const HeaderCurso = () => {
                 className="btn btn-outline-primary btn-lg mb-3"
                 style={{ width: "100%" }}
                 target="_blank"
-                href="https://wa.me/+525510722129"
+                href={'https://wa.me/' + whatsappNumber}
               >
                 Agendar por Whatsapp
               </a>

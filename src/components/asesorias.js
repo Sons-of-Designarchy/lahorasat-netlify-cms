@@ -3,6 +3,7 @@ import React from "react";
 import basica from "../img/cursos/asesoria.jpg";
 import practica from "../img/cursos/asesoria-practica-2.jpg";
 import declaracion from "../img/asesorias/declaracion.jpg";
+import { whatsappNumber } from "./header";
 
 const Asesorias = ({ title }) => {
 
@@ -14,7 +15,7 @@ const Asesorias = ({ title }) => {
             {title ? title : "¿Necesitas asesoría personalizada? "}
           </h3>
           <p className="text-secondary text-center mb-5">
-            Tenemos dos modelos, si tienes dudas de cuál elegir, <a href="https://wa.me/+525510722129" className="text-secondary text-underline">mándanos un Whatsapp</a>.
+            Tenemos dos modelos, si tienes dudas de cuál elegir, <a href={'https://wa.me/' + whatsappNumber} className="text-secondary text-underline">mándanos un Whatsapp</a>.
           </p>
           <div className="row no-gutters">
             <div className="col-lg-4 mb-3">

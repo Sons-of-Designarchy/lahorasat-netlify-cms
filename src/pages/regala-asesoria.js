@@ -10,6 +10,7 @@ import BulletLanding from "../img/bullet-landing.svg";
 import Colaboraciones from "../components/colaboraciones";
 import Reviews from "../components/reviews";
 import BlogLatest from "../components/blog-latest";
+import { whatsappNumber } from "../components/header";
 
 const RegaloAsesoria = () => {
   const [accordion, setAccordion] = React.useState("");
@@ -342,7 +343,7 @@ const RegaloAsesoria = () => {
                   No te preocupes, estamos aquí para ayudarte. Mándanos mensaje
                   por{" "}
                   <a
-                    href="https://wa.me/+525510722129"
+                    href={'https://wa.me/' + whatsappNumber}
                     className="text-underline"
                   >
                     Whatsapp{" "}
