@@ -3,7 +3,7 @@ import React from "react";
 const btnStyle = {
   boxShadow: "0 10px 30px rgba(0,0,0,.15)",
   height: 46,
-  marginLeft: "1rem",
+  marginTop: "1rem",
 };
 
 const Subscribe = () => {
@@ -13,7 +13,6 @@ const Subscribe = () => {
         action="https://lahorasat.podia.com/email_lists/226925/subscriptions"
         accept-charset="UTF-8"
         method="post"
-        className="d-flex"
       >
         <input
           type="email"
