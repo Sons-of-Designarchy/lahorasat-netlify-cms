@@ -1,12 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import BlogLatest from "./blog-latest";
 import Footer from "./footer-nav";
 import Header from "./header";
 import "./layout.css";
 import Subscribe from "./subscribe";
+import MiniGuia from "../img/mini-guia.png"
 
-export default function Layout({ children, homepage, title, headerAction }) {
+export default function Layout({ children, homepage, title, headerAction, hideSubscribe }) {
   return (
     <main>
       <Helmet>
@@ -18,22 +18,23 @@ export default function Layout({ children, homepage, title, headerAction }) {
       </Helmet>
       <Header homepage={homepage} headerAction={headerAction} />
       <div className="page-content">{children}</div>
-      <div className="hero section section-white">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-10 mx-auto">
-              <h3 className="hero-title text-center pt-4">
-                Todo lo que necesitas saber sobre{" "}
-                <span className="bg-primary">el SAT</span> y la{" "}
-                <span className="bg-primary">vida financiera</span> contado por{" "}
-                <span className="bg-primary">millennials para millennials</span>{" "}
-                * 🤓💸
-              </h3>
-              <Subscribe />
+      {!hideSubscribe && (
+        <div className="hero section section-white">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-7">
+                <h1 className="pt-4">
+                  Suscríbete al newsletter y recibe gratis la mini guía del Portal del Sat
+                </h1>
+                <Subscribe />
+              </div>
+              <div className="col-lg-5">
+                <img src={MiniGuia} />
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
       <Footer />
     </main>
   );
