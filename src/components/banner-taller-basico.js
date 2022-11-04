@@ -64,7 +64,7 @@ const BannerTallerBasico = () => {
           </ul>
           <div className="mb-4">
             <h4>
-              Costo: <span className="text-primary">$399</span>
+              Costo: <span className="text-primary">$349</span>
             </h4>
             <p className="font-xs text-light">
               (Pagas en línea y recibes un correo con la liga de acceso)

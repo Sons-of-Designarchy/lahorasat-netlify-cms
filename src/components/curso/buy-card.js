@@ -17,7 +17,7 @@ const BuyCard = () => {
             <div className="px-lg-3">
               <div className="d-flex align-items-center justify-content-center">
                 <h4 style={{ marginRight: "6px" }}>
-                  <s>de $800 </s> a sólo $399
+                  <s>de $800 </s> a sólo $349
                 </h4>
               </div>
               <b className="text-uppercase mb-1 font-xxs">Incluye:</b>

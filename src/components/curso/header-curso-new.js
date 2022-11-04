@@ -34,7 +34,7 @@ const HeaderCursoNew = () => {
               <h4 style={{ marginRight: "6px" }}>
                 <s>de $800</s>
               </h4>
-              <h2 className="text-primary"> a sólo $399</h2>
+              <h2 className="text-primary"> a sólo $349</h2>
             </div>
             <div className="d-flex flex-column flex-md-row">
               <a

@@ -49,32 +49,6 @@ const Cursos = () => {
                   </a>
                 </div>
 
-                {/* <div className="col-lg-6 mb-3">
-                  <a
-                    className="course-card rounded course-card-green"
-                    href="/taller-basico"
-                  >
-                    <img src={taller} className="img-fluid" />
-                    <div className="course-content">
-                      <div className="d-flex mb-2">
-                        <div className="label me-2">
-                          TALLER EN ZOOM
-                        </div>
-                        <div className="label me-2">$399 MXN</div>
-                      </div>
-                      <h4 className="mb-1 text-secondary">
-                        Taller online Básico
-                      </h4>
-                      <p className="font-sm text-secondary-l">
-                        Todo lo del curso en video además de poder resolver todas las dudas que tengas en ese monento.
-                      </p>
-                    </div>
-                    <div className="p-3">
-                      <a className="btn btn-secondary btn-block disabled">Pronto nueva fecha :)</a>
-                    </div>
-                  </a>
-                </div> */}
-
                 <div className="col-lg-6 mb-3">
                   <a
                     className="course-card rounded course-card-green"
