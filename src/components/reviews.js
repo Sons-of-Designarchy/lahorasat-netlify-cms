@@ -2,11 +2,15 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import ReviewCard from "./reviews/card";
+import TestimoniosLandings from "./testimonios-landings";
 
 const Reviews = () => {
   return (
     <div className="container my-lg-5">
       <h2 className="my-5 text-center">Nuestros clientes nos avalan*</h2>
+      <div className="mb-5">
+        <TestimoniosLandings />
+      </div>
       <Carousel showThumbs={false} showStatus={false} autoPlay={true}>
         <div className="mx-lg-5 mb-5">
           <div className="row">

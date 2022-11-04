@@ -3,26 +3,27 @@ import Layout from "../components/page-layout";
 import Asesorias from "../components/asesorias";
 import HeaderCursoNew from "../components/curso/header-curso-new";
 import BulletsCursoNew from "../components/curso/bullets-curso-new";
-import AboutUs from "../components/about-us";
 import Temario1 from "../img/cursos/curso-en-video/temario-1.svg";
 import Temario2 from "../img/cursos/curso-en-video/temario-2.svg";
 import Temario3 from "../img/cursos/curso-en-video/temario-3.svg";
 import Millenials from "../img/cursos/curso-en-video/dirigido-millenials.svg";
 import Freelancers from "../img/cursos/curso-en-video/dirigido-freelancers.svg";
 import Publico from "../img/cursos/curso-en-video/dirigido-publico.svg";
-import AcentoBlanco from "../img/acento-blanco.svg";
 import BuyCard from "../components/curso/buy-card";
 import Colaboraciones from "../components/colaboraciones";
 import Reviews from "../components/reviews";
-import BlogLatest from "../components/blog-latest";
+import AboutUsLandings from "../components/about-us-landings";
 
 const cursoBullets = [
-  "¿Qué es el SAT?",
+  "Conceptos básicos para empezar tu vida fiscal",
+  "¿Cuándo debo darme de alta?",
+  "Por qué debes de darte de alta",
+  "Cómo darte de alta en el SAT (todo lo que necesitas saber y tener)",
+  "Aprende qué son las obligaciones fiscales y cómo manejarlas",
   "¿Cómo sacar una cita en el SAT?",
   "¿Qué es la firma electrónica?",
-  "¿Cuándo debo darme de alta?",
-  "¿Iré a la carcel por no pagar mis impuestos?",
   "¿Qué es el RESICO?",
+  "Y todos los Hacks para sobrevivir al SAT",
 ];
 
 // markup
@@ -44,34 +45,69 @@ const CursoEnVideoPage = () => {
         }
       >
         <HeaderCursoNew />
+
+        <div className="section section-green text-center">
+          <div className="container">
+            <h3>
+              ¿Sabías que el SAT puede multarte por hasta $35,000 pesos por no
+              cumplir con tus obligaciones fiscales?
+            </h3>
+          </div>
+        </div>
+
+        <div className="section section-gray text-center">
+          <div className="container">
+            <p>
+              Sabemos que ser adulto es muy difícil, por eso creamos el curso...
+            </p>
+            <h1>Pasos básicos para sobrevivir al SAT</h1>
+            <p>El curso ideal para:</p>
+            <div className="row mt-3">
+              <div className="col-lg-4">
+                <div className="card mb-3">
+                  <img src={Freelancers} width="100" className="mx-auto mb-3" />
+                  <h5>Freelancers</h5>
+                  <p className="mb-3">
+                    Que tienen que dar factura a sus clientes y quieren saber
+                    cómo hacerlo y usar esto a su favor.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card mb-3">
+                  <img src={Millenials} width="100" className="mx-auto mb-3" />
+                  <h5>Recien graduados</h5>
+                  <p className="mb-3">
+                    Que acaban de incorporarse a la vida de “adulto” y quieren
+                    saber quiúbole con el SAT
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="card mb-3">
+                  <img src={Publico} width="100" className="mx-auto mb-3" />
+                  <h5>Emprendedores</h5>
+                  <p className="mb-3">
+                    Que quiere aprender cómo sobrevivir al SAT de manera
+                    sencilla.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <BulletsCursoNew bullets={cursoBullets} />
         <BuyCard />
+        <AboutUsLandings />
+        <Reviews />
 
         {/* temario */}
 
-        <div className="section">
+        <div className="section section-white">
           <div className="container">
-            <h3 className="mb-4 text-center">
-              ¿Qué aprenderás aqui?
-            </h3>
-            <div className="card card-purple mb-5">
-              <ul className="row text-center">
-                <div className="col-lg-4 mt-3">
-                  <h5 className="text-primary">¿Cómo incorporarte al SAT?</h5>
-                  <p className="text-light mb-0 font-sm">De una forma correcta y sin complicaciones</p>
-                </div>
-                <div className="col-lg-4 mt-3">
-                  <h5 className="text-primary">Pro tips</h5>
-                  <p className="text-light mb-0 font-sm">Para llevar tu contabilidad de manera sencilla</p>
-                </div>
-                <div className="col-lg-4 mt-3">
-                  <h5 className="text-primary">Primeros pasos</h5>
-                  <p className="text-light m-0 font-sm">Pro tips para llevar tu contabilidad de manera sencilla</p>
-                </div>
-              </ul>
-            </div>
-            <h3 className="mb-5">Temario del curso</h3>
-            <div className="row mb-3">
+            <div className="row mb-3 text-center">
+              <h3 className="mb-5">Temario del curso</h3>
               <div className="col-lg-4">
                 <div className="mb-3">
                   <img src={Temario1} className="img-fluid" width="100" />
@@ -104,54 +140,21 @@ const CursoEnVideoPage = () => {
                 </ul>
               </div>
             </div>
-            <div className="mt-5 text-center">
-              <h3>Dirigido a</h3>
-              <p>personas que el SAT les quita el sueño... por ejemplo:</p>
-              <div className="row mt-3">
-                <div className="col-lg-4">
-                  <div className="card mb-3">
-                    <h5>Millenials</h5>
-                    <p className="font-xs mb-3">
-                      Que acaban de incorporarse a la vida de “adulto” y quieren
-                      saber quiúbole con el SAT
-                    </p>
-                    <img src={Millenials} width="100" className="mx-auto" />
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="card mb-3">
-                    <h5>Freelancers</h5>
-                    <p className="font-xs mb-3">
-                      Que tienen que dar factura a sus clientes y quieren saber
-                      cómo hacerlo y usar esto a su favor.
-                    </p>
-                    <img src={Freelancers} width="100" className="mx-auto" />
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="card mb-3">
-                    <h5>Público en general</h5>
-                    <p className="font-xs mb-3">
-                      Que quiere aprender cómo sobrevivir al SAT de manera
-                      sencilla.
-                    </p>
-                    <img src={Publico} width="100" className="mx-auto" />
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-        <div className="section section-green d-flex justify-content-center text-center">
-          <img src={AcentoBlanco} width="50" className="mx-auto" />
+        <div className="section section-green text-center">
           <h1>Aprende a sobrevivir al SATanás</h1>
-          <img src={AcentoBlanco} width="50" className="mx-auto" />
+          <a
+            className="btn btn-secondary btn-lg mt-4"
+            href="https://lahorasat.podia.com/curso-en-video"
+            data-podia-embed="link"
+          >
+            Comprar curso
+          </a>
         </div>
-        <Reviews />
-        <AboutUs />
         <Colaboraciones />
-        <BlogLatest />
-        <Asesorias title="¿Tienes una duda especifica? Agenda una asesoria" />
+        {/* <BlogLatest /> */}
+        <Asesorias title="¿Necesitas asesoría personalizada? Agenda una asesoria" />
       </Layout>
     </>
   );

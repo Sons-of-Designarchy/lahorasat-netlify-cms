@@ -5,18 +5,37 @@ import Adorno from "../../img/acento-verde.svg";
 const HeaderCursoNew = () => {
   return (
     <div className="section section-purple">
+
       <div className="container">
+        <div className="d-lg-none mb-4">
+          <iframe
+            width="100%"
+            height="300px"
+            src="https://www.youtube.com/embed/BxjK_NGBq0o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
         <div className="row no-gutters align-items-center">
           <div className="col-lg-5 p-lg-r">
-            <img src={Adorno} className="mb-3 d-block" />
+            <img src={Adorno} className="mb-3 d-none d-lg-block" />
+            <h5 className="label label-primary">Curso</h5>
             <h2 className="mb-3 text-light">
-              ¿No sabes cómo empezar con el SAT?{" "}
-              <span className="text-primary">Este curso es para ti</span>
+              Cómo darte de alta en el SAT y pagar tus impuestos, tú mismo.{" "}
             </h2>
+            <h5 className="text-primary">Un curso para NO contadores</h5>
             <p className="text-light">
-              Aquí aprenderás lo más básico que necesitas saber para darte de
-              alta ante el SAT y aprender a pagar tus impuestos.
+              Todo lo esencial que necesitas saber para sobrevivir al SAT.
             </p>
+
+            <div className="d-flex align-items-center mb-4">
+              <h4 style={{ marginRight: "6px" }}>
+                <s>de $800</s>
+              </h4>
+              <h2 className="text-primary"> a sólo $399</h2>
+            </div>
             <div className="d-flex flex-column flex-md-row">
               <a
                 className="btn btn-primary btn-lg mb-3 me-3"
@@ -24,7 +43,7 @@ const HeaderCursoNew = () => {
                 href="https://lahorasat.podia.com/curso-en-video"
                 data-podia-embed="link"
               >
-                Comprar
+                Comprar curso
               </a>
             </div>
           </div>
