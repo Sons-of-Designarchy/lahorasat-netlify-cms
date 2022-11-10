@@ -10,8 +10,7 @@ description: >
 featuredpost: true
 featuredimage: /img/facturas.png
 tags:
-  - facturas
-  - CFDI
+  - DEDUCCIONES
 ---
 Para poder generar una factura, existe una gran variedad de tipos de Uso de CFDI que se diferencian por claves.
 
