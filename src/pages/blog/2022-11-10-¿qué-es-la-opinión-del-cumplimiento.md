@@ -10,9 +10,7 @@ description: >
 featuredpost: true
 featuredimage: /img/opinion.png
 tags:
-  - SAT
-  - OPINION
-  - PLATAFORMA
+  - PORTAL DEL SAT
 ---
 Al revisarlo, pueden salir dos resultados: 
 
