@@ -9,6 +9,8 @@ description: >
   Estos son esquemas en los cuales se te asigna alguno dependiendo de tu actividad económica (o sea a lo que te vas a dedicar). Y cada esquema tiene diferentes obligaciones y derechos. ¡Por eso es muy importante que elijas bien! 
 featuredpost: true
 featuredimage: /img/regimenes.png
+tags:
+  - REGIMENES FISCALES
 ---
 ## ¿Qué tipos de regímenes hay? 
 
