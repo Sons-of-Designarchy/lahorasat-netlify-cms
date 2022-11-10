@@ -7,6 +7,8 @@ description: Aquí te dejamos la tabla con la tasa de ISR que se cobrará según
   nuevo Régimen Simplificado de Confianza
 featuredpost: true
 featuredimage: /img/resico.png
+tags:
+  - REGIMENES FISCALES
 ---
 ### El pago de ISR mensual se calculará según siguiente tabla:
 
