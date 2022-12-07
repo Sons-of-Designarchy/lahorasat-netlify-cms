@@ -5,7 +5,7 @@ import Layout from "../components/page-layout";
 const CursoEnVideoPage = () => {
   return (
     <>
-      <Layout title="Aviso de privacidad">
+      <Layout title="Aviso de privacidad" hideSubscribe>
         <div className="container mt-5 mb-5">
           <h1 className="text-center">AVISO DE PRIVACIDAD</h1>
           <h4 className="text-center">Información Relevante</h4>

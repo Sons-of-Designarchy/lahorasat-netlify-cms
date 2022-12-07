@@ -1,9 +1,9 @@
 :root {
   --purple: #603dbd;
   --purple-light: #886ecd;
-  --off-purple: #E9E4F5;
+  --off-purple: #e9e4f5;
   --green: #d5fc6d;
-  --green-flu: #D3FC66;
+  --green-flu: #d3fc66;
   --white: #ffffff;
 }
 
@@ -190,8 +190,8 @@ ul {
 }
 
 .btn-lg {
-  font-size: 20px!important;
-  border: 1px solid var(--purple)!important;
+  font-size: 20px !important;
+  border: 1px solid var(--purple) !important;
   box-shadow: 5px 5px 0 var(--purple);
   border-radius: 40px;
   padding: 0.75rem 1.5rem;
@@ -229,7 +229,7 @@ ul {
 .btn-outline-secondary:hover {
   background: var(--purple);
   color: var(--green);
-  border: 1px solid var(--green)!important;
+  border: 1px solid var(--green) !important;
   box-shadow: 5px 5px 0 var(--green);
 }
 
@@ -340,6 +340,17 @@ ul {
 .section-white {
   background: #fff url("../img/textura-white.png");
   background-size: cover;
+}
+
+.suscribe-modal {
+  position: fixed;
+  top: 10vh;
+  width: 80vw;
+  margin: auto;
+  z-index: 4000000;
+  left: 0;
+  right: 0;
+  box-shadow: 10px 0px 30px;
 }
 
 .section-purple {
@@ -690,17 +701,18 @@ ul {
   margin: 8px;
 }
 
-.carousel .control-arrow::before, .carousel .control-prev.control-arrow::before  {
-  border-left-color: var(--purple)!important;
+.carousel .control-arrow::before,
+.carousel .control-prev.control-arrow::before {
+  border-left-color: var(--purple) !important;
 }
 
-.carousel .control-prev.control-arrow::before  {
-  border-right-color: var(--purple)!important;
+.carousel .control-prev.control-arrow::before {
+  border-right-color: var(--purple) !important;
 }
 
 .carousel .control-dots .dot {
-  background: var(--purple)!important;
-  box-shadow: none!important;
+  background: var(--purple) !important;
+  box-shadow: none !important;
 }
 
 .flex-1 {

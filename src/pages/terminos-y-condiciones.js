@@ -6,7 +6,7 @@ import AboutUs from "../components/about-us";
 const CursoEnVideoPage = () => {
   return (
     <>
-      <Layout title="Términos y condiciones">
+      <Layout title="Términos y condiciones" hideSubscribe>
         <div className="container mt-5 mb-5">
           <h1 className="text-center">TÉRMINOS Y CONDICIONES </h1>
           <h4 className="text-center">Información Relevante</h4>

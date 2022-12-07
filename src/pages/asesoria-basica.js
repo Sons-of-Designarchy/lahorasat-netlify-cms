@@ -23,7 +23,7 @@ const cursoBullets = [
 const AsesoriaBasicaPage = () => {
   return (
     <>
-      <Layout>
+      <Layout hideSubscribe>
         <HeroBasica />
         <div className="section section-white">
           <h2 className="text-center">Domina al SATanás desde el primer día</h2>

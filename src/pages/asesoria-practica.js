@@ -24,7 +24,7 @@ const cursoBullets = [
 const AsesoriaPracticaPage = () => {
   return (
     <>
-      <Layout>
+      <Layout hideSubscribe>
         <HeroPractica />
         <BulletsAsesoria
           bullets={cursoBullets}

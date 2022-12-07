@@ -4,9 +4,11 @@ import Footer from "./footer-nav";
 import Header from "./header";
 import "./layout.css";
 import Subscribe from "./subscribe";
-import MiniGuia from "../img/mini-guia.png"
+// import MiniGuia from "../img/mini-guia.png"
 
 export default function Layout({ children, homepage, title, headerAction, hideSubscribe }) {
+  const [showModal, setShowModal] = React.useState(true);
+
   return (
     <main>
       <Helmet>
@@ -18,22 +20,8 @@ export default function Layout({ children, homepage, title, headerAction, hideSu
       </Helmet>
       <Header homepage={homepage} headerAction={headerAction} />
       <div className="page-content">{children}</div>
-      {!hideSubscribe && (
-        <div className="hero section section-white">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-7">
-                <h1 className="pt-4">
-                  Suscríbete al newsletter y recibe gratis la mini guía del Portal del Sat
-                </h1>
-                <Subscribe />
-              </div>
-              <div className="col-lg-5">
-                <img src={MiniGuia} />
-              </div>
-            </div>
-          </div>
-        </div>
+      {!hideSubscribe && showModal && (
+        <Subscribe setShowModal={setShowModal} />
       )}
       <Footer />
     </main>

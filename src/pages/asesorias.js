@@ -8,7 +8,7 @@ import Layout from "../components/page-layout";
 const AsesoriasPage = () => {
   return (
     <>
-      <Layout title="Asesorias">
+      <Layout title="Asesorias" hideSubscribe>
         <Asesorias />
         <Colaboraciones />
         <BlogLatest />

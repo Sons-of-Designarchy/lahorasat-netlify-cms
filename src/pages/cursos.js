@@ -8,7 +8,7 @@ import BlogLatest from "../components/blog-latest";
 const AsesoriasPage = () => {
   return (
     <>
-      <Layout title="Cursos">
+      <Layout title="Cursos" hideSubscribe>
         <Cursos />
         <Colaboraciones />
         <BlogLatest />
