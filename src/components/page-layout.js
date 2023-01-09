@@ -7,7 +7,7 @@ import Subscribe from "./subscribe";
 // import MiniGuia from "../img/mini-guia.png"
 
 export default function Layout({ children, homepage, title, headerAction, hideSubscribe }) {
-  const [showModal, setShowModal] = React.useState(true);
+  const [showModal, setShowModal] = React.useState(false);
 
   return (
     <main>
