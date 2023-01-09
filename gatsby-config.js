@@ -104,6 +104,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,     
+      options: {       
+           pixelId: "494932346104247",     
+      },   
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
