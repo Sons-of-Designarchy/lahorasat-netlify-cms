@@ -110,6 +110,14 @@ module.exports = {
            pixelId: "494932346104247",     
       },   
     },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true, // optional parameter to include script in development
+        id: 3233442,
+        sv: 6,
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
