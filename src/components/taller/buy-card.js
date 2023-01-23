@@ -1,7 +1,7 @@
 import React from "react";
 import Chicas from "../../img/cursos/curso-en-video/foto-paquete.jpg";
 
-const BuyCard = () => {
+const BuyCard = ({url}) => {
   return (
     <>
       <div className="section section-white">
@@ -43,7 +43,7 @@ const BuyCard = () => {
                   <a
                     className="btn btn-secondary btn-lg mb-3 me-3"
                     style={{ width: "100%" }}
-                    href="https://lahorasat.podia.com/curso-en-video-aprende-a-facturar-en-el-portal-del-sat-version-4-0"
+                    href={url}
                     data-podia-embed="link"
                   >
                     Comprar

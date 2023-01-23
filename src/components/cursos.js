@@ -23,7 +23,7 @@ const Cursos = () => {
             <div className="col-lg-10 mx-auto">
               <div className="row no-gutters">
                 <div className="col-lg-6 mb-3">
-                  <a className="course-card rounded" href="/curso-basico">
+                  <a className="course-card rounded" href="/curso-basico-lhs">
                     <img src={curso} className="img-fluid" />
                     <div className="course-content">
                       <div className="d-flex mb-2">
@@ -52,7 +52,7 @@ const Cursos = () => {
                 <div className="col-lg-6 mb-3">
                   <a
                     className="course-card rounded course-card-green"
-                    href="/taller-practico-facturacion"
+                    href="/curso-facturacion-lhs"
                   >
                     <img src={taller} className="img-fluid" />
                     <div className="course-content">

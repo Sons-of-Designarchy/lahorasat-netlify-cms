@@ -6,16 +6,8 @@ import BuyCard from "../components/taller/buy-card";
 import Reviews from "../components/reviews";
 import AboutUs from "../components/about-us";
 import Colaboraciones from "../components/colaboraciones";
-import BlogLatest from "../components/blog-latest";
-import Asesorias from "../components/asesorias";
-// import Temario1 from "../img/cursos/curso-en-video/temario-1.svg";
-// import Temario2 from "../img/cursos/curso-en-video/temario-2.svg";
-// import Temario3 from "../img/cursos/curso-en-video/temario-3.svg";
 import Millenials from "../img/cursos/curso-en-video/dirigido-millenials.svg";
 import Freelancers from "../img/cursos/curso-en-video/dirigido-freelancers.svg";
-import Publico from "../img/cursos/curso-en-video/dirigido-publico.svg";
-import AcentoBlanco from "../img/acento-blanco.svg";
-
 const bullets = [
   "Cómo configurar mi plataforma de facturación.",
   "Cómo realizar una factura al público en general.",
@@ -23,6 +15,8 @@ const bullets = [
   "Cómo cancelar una factura errónea.",
   "Resolución de dudas personales.",
 ];
+
+const url = 'https://lahorasat.podia.com/8ddf59d2-3805-4337-b204-d0d47dd9ae17';
 
 // markup
 const CursoEnVideoPage = () => {
@@ -34,7 +28,7 @@ const CursoEnVideoPage = () => {
           <div style={{ marginRight: 8 }}>
             <a
               className="btn btn-menu btn-menu-purple"
-              href="https://lahorasat.podia.com/curso-en-video-aprende-a-facturar-en-el-portal-del-sat-version-4-0"
+              href={url}
               data-podia-embed="link"
             >
               Comprar curso
@@ -42,7 +36,7 @@ const CursoEnVideoPage = () => {
           </div>
         }
       >
-        <HeaderTaller />
+        <HeaderTaller url={url} />
         <BulletsTaller bullets={bullets} />
 
         {/* temario */}
@@ -52,8 +46,8 @@ const CursoEnVideoPage = () => {
             <div className="text-center">
               <h3>Dirigido a</h3>
               <p>personas que el SAT les quita el sueño... por ejemplo:</p>
-              <div className="row mt-3">
-                <div className="col-lg-4">
+              <div className="row mt-3 mx-auto">
+                <div className="col-lg-6">
                   <div className="card mb-3">
                     <h5>Soy mi propio contador</h5>
                     <p className="font-xs mb-3">
@@ -63,7 +57,7 @@ const CursoEnVideoPage = () => {
                     <img src={Millenials} width="100" className="mx-auto" />
                   </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-6">
                   <div className="card mb-3">
                     <h5>Freelancers y emprendedores</h5>
                     <p className="font-xs mb-3">
@@ -71,16 +65,6 @@ const CursoEnVideoPage = () => {
                       cómo hacerlo y usar esto a su favor.
                     </p>
                     <img src={Freelancers} width="100" className="mx-auto" />
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="card mb-3">
-                    <h5>Público en general</h5>
-                    <p className="font-xs mb-3">
-                      Personas que quieran aprender a facturar en la nueva
-                      versión 4.0
-                    </p>
-                    <img src={Publico} width="100" className="mx-auto" />
                   </div>
                 </div>
               </div>
@@ -107,13 +91,11 @@ const CursoEnVideoPage = () => {
           </div>
         </div>
 
-        <BuyCard />
+        <BuyCard url={url} />
 
         <Reviews />
         <AboutUs />
         <Colaboraciones />
-        <BlogLatest />
-        <Asesorias title="¿Tienes una duda especifica? Agenda una asesoria" />
       </Layout>
     </>
   );
