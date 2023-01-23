@@ -2,7 +2,7 @@
 import React from "react";
 import CheckBullet from "../../components/check-bullet";
 
-const BulletsCursoNew = ({ bullets }) => {
+const BulletsCursoNew = ({ bullets, url }) => {
   return (
     <>
       <div className="section section-white text-center">
@@ -28,7 +28,7 @@ const BulletsCursoNew = ({ bullets }) => {
               <a
                 className=" mt-4 btn btn-secondary btn-lg mb-3 me-3"
                 style={{ width: "100%" }}
-                href="https://lahorasat.podia.com/curso-en-video"
+                href={url}
                 data-podia-embed="link"
               >
                 Comprar curso

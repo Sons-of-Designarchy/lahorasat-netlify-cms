@@ -26,6 +26,8 @@ const cursoBullets = [
   "Y todos los Hacks para sobrevivir al SAT",
 ];
 
+const url = "https://lahorasat.podia.com/64dcf7e5-4f51-4f50-931b-6f7e297c82b4";
+
 // markup
 const CursoEnVideoPage = () => {
   return (
@@ -36,7 +38,7 @@ const CursoEnVideoPage = () => {
           <div style={{ marginRight: 8 }}>
             <a
               className="btn btn-menu btn-menu-purple"
-              href="https://lahorasat.podia.com/curso-en-video"
+              href={url}
               data-podia-embed="link"
             >
               Comprar curso
@@ -44,7 +46,7 @@ const CursoEnVideoPage = () => {
           </div>
         }
       >
-        <HeaderCursoNew />
+        <HeaderCursoNew url={url} />
 
         <div className="section section-green text-center">
           <div className="container">
@@ -97,8 +99,8 @@ const CursoEnVideoPage = () => {
           </div>
         </div>
 
-        <BulletsCursoNew bullets={cursoBullets} />
-        <BuyCard />
+        <BulletsCursoNew bullets={cursoBullets} url={url} />
+        <BuyCard url={url} />
         <AboutUsLandings />
         <Reviews />
 
@@ -146,7 +148,7 @@ const CursoEnVideoPage = () => {
           <h1>Aprende a sobrevivir al SATanás</h1>
           <a
             className="btn btn-secondary btn-lg mt-4"
-            href="https://lahorasat.podia.com/curso-en-video"
+            href={url}
             data-podia-embed="link"
           >
             Comprar curso

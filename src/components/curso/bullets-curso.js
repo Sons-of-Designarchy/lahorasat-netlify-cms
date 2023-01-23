@@ -2,7 +2,7 @@
 import React from "react";
 import { whatsappNumber } from "../header";
 
-const BulletsCurso = ({ bullets }) => {
+const BulletsCurso = ({ bullets, url }) => {
   return (
     <>
       <div className="section section-green text-center">
@@ -20,7 +20,7 @@ const BulletsCurso = ({ bullets }) => {
               <a
                 className="btn btn-secondary mb-3 me-3 btn-lg"
                 style={{ width: "100%" }}
-                href="https://lahorasat.podia.com/curso-en-video"
+                href={url}
                 data-podia-embed="link"
               >
                 Pagar en línea

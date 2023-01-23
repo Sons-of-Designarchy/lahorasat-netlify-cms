@@ -1,7 +1,7 @@
 import React from "react";
 import Chicas from "../../img/cursos/curso-en-video/foto-paquete.jpg";
 
-const BuyCard = () => {
+const BuyCard = ({url}) => {
   return (
     <>
       <div className="section section-green text-center">
@@ -33,7 +33,7 @@ const BuyCard = () => {
               </p>
               <a
                 className="btn btn-secondary btn-lg mb-3 me-3"
-                href="https://lahorasat.podia.com/curso-en-video"
+                href={url}
                 data-podia-embed="link"
               >
                 Comprar curso

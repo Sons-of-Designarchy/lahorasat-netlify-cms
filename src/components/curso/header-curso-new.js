@@ -2,7 +2,7 @@
 import React from "react";
 import Adorno from "../../img/acento-verde.svg";
 
-const HeaderCursoNew = () => {
+const HeaderCursoNew = ({url}) => {
   return (
     <div className="section section-purple">
 
@@ -40,7 +40,7 @@ const HeaderCursoNew = () => {
               <a
                 className="btn btn-primary btn-lg mb-3 me-3"
                 style={{ width: "100%" }}
-                href="https://lahorasat.podia.com/curso-en-video"
+                href={url}
                 data-podia-embed="link"
               >
                 Comprar curso
