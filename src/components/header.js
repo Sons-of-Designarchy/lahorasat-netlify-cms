@@ -115,13 +115,13 @@ const Header = ({ headerAction }) => {
           </div>
         </div>
       </nav>
-      <a
+      {/* <a
         href={'https://wa.me/' + whatsappNumber}
         target="_blank"
         className="whats-floating"
       >
         <img src={Whats} />
-      </a>
+      </a> */}
     </header>
   );
 };

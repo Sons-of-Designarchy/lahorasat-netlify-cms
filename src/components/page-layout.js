@@ -13,6 +13,7 @@ export default function Layout({ children, homepage, title, headerAction, hideSu
     <main>
       <Helmet>
         <script src="https://cdn.podia.com/embeds.js" async="async"></script>
+        <script src="http://danielpliego.com/lahorasat/messenger.js" async="async"></script>
         <title>{title ? `La hora SAT® 🤓  | ${title}` : "La hora SAT® 🤓 "}</title>
         <meta name="description" content="Somos una comunidad de educación fiscal. Hacemos contenido informativo, impartimos cursos y asesorías personalizadas que te ayudarán a entender cómo funciona el SAT." />
         <meta name="keywords" content="sat, cursos, asesorias, educación fiscal, impuestos" />
