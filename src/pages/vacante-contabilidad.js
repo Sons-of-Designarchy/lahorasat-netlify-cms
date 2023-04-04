@@ -66,6 +66,7 @@ const AsesoriasPage = () => {
           </ul>
           <h4>¿Qué te ofrecemos?</h4>
           <ul>
+            <li>Elegir entre Part-time / Full-time</li>
             <li>
               Paquete de compensación competitivo, que incluye participación
               accionaria en la empresa.
