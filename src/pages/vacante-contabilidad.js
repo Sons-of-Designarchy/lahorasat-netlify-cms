@@ -8,15 +8,14 @@ const AsesoriasPage = () => {
         <div className="container my-5">
           <h1>Gerente de contabilidad</h1>
           <p>
-            Estamos buscando un profesional experimentado en contabilidad para
+            Estamos buscando un/a profesional experimentadx en contabilidad para
             unirse a nuestro equipo como líder del área contable de nuestro
-            proyecto. Este rol jugará un papel crítico en la dirección de
-            nuestro proyecto y en impulsar su éxito.
+            proyecto. Este rol jugará un papel crítico en la dirección, administración y planeación para seguir creciendo La Hora SAT.
           </p>
           <h4>Responsabilidades</h4>
           <ul>
             <li>
-              Supervisar la operación diaria del proyecto y empujar las metas
+              Supervisar la operación diaria e impulsar a que se logren las metas
               del mes
             </li>
             <li>
@@ -24,19 +23,19 @@ const AsesoriasPage = () => {
               redes sociales
             </li>
             <li>Impartir cursos sobre el SAT a grupos online y presencial.</li>
-            <li>Resolver dudas fiscales que pasen en el chat de soporte.</li>
+            <li>Resolver dudas fiscales en el chat de soporte.</li>
             <li>
               Desarrollar y ejecutar una estrategia de impuestos integral que se
               alinee con nuestros objetivos empresariales y cumpla con todas las
               regulaciones y leyes pertinentes.
             </li>
             <li>
-              Administrar todos los aspectos de la preparación de impuestos del
-              proyecto.
+              Llevar la administración y contabilidad de los ingresos del proyecto
+          
             </li>
             <li>
-              Colaborar con otros miembros del equipo para identificar áreas de
-              mejora de procesos y desarrollar soluciones para mejorar nuestra
+              Colaborar con otrxs miembrxs del team para identificar áreas de
+              oportunidad en procesos y desarrollar soluciones para mejorar nuestra
               eficiencia y efectividad general.
             </li>
           </ul>
@@ -44,20 +43,19 @@ const AsesoriasPage = () => {
           <ul>
             <li>Licenciatura en contabilidad.</li>
             <li>
-              Al menos 3 años de experiencia en la preparación de impuestos y
-              contabilidad.
+              Al menos 3 años de experiencia en el área de 
+              contabilidad avanzado.
             </li>
             <li>
               Fuertes habilidades analíticas, de resolución de problemas y de
               comunicación.
             </li>
             <li>
-              Habilidad probada para administrar proyectos complejos y obtener
+              Experiencia comprobada para administrar proyectos complejos y obtener
               resultados.
             </li>
             <li>
-              Se valora la experiencia trabajando en un entorno ágil o con
-              empresas en etapas tempranas.
+              Indispensable saber trabajar en tiempo y en forma en esquema Home Office 
             </li>
           </ul>
           <h4>Nice-to-haves</h4>
